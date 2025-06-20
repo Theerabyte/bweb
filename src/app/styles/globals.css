@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Futura;
+}
+body {
+    line-height: 1.6;
+    background-color: #35424a;
+    color: #333;
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; 
+    text-align: right; 
+    background: #087282;
+    padding: 10px 0;
+}
+nav a, nav button {
+    color: black;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: background 0.3s;
+}
+nav a:hover {
+    background: #78caeb;
+}
+nav button {
+    background: #93bfe1;
+    color: black; 
+    border: none;
+    padding: 5px 15px; 
+    margin: 0 15px; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    transition: background 0.3s; 
+    text-align: center; 
+    display: inline-block; 
+}
+nav button:hover {
+    background: #78caeb; 
+}
+nav .logo {
+    margin-right: auto; 
+}
+#navbarLogo {
+    height: 50px;        
+    width: auto;         
+    padding: 0;          
+    margin: 0;           
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px; 
+    cursor: pointer;
+    display: none; 
+}
+.menu {
+    font-family:Lobster;
+    display: flex; 
+    justify-content: flex-end; 
+    text-align: right;
+}
+.ges-button{
+    background-color: transparent !important;
+    background: transparent !important;
+}
+.ges-button:hover{
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+h2 {
+    font-family: Lobster;
+    color: #060667;
+    text-align: center;
+}
+h3 {
+    color: #0c3c4e;
+    text-align: left;
+}
+h4 {
+    font-family: Futura;
+    color: #333;
+    text-align: center;
+} 
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%; 
+    height: auto;
+    padding: 20px;
+    background-color: #35424a; 
+}
+.modal-content {
+    color: #333; 
+    font-family: Futura;
+    background-color: #087282; 
+    margin: 15% auto; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
+    width: 80%;
+}
+
+.bgc {
+    flex: 1; 
+    margin: 10px; 
+    padding: 20px;
+    background: #3bc9db;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    min-width: 280px; 
+}
+.close {
+    color: #9b111e;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 15px;
+    padding-right: 12px;
+}
+.close:hover,
+.close:focus {
+    color: #56070c; 
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer.y {
+    text-align: center;
+    background: #99e9f2;
+    color: rgb(75, 74, 107);
+    padding:12px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer {
+    text-align: center;
+    background: #99e9f2;
+    color: rgb(75, 74, 107);
+    padding:12px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ------------------------- Page : INDEX ----------------------- */ 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    max-width: 1600px;  
+    margin: 20px auto; 
+}
+
+.abme, .HnI {
+    flex: 1; 
+    margin: 10px; 
+    padding: 20px;
+    background: #3bc9db;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    min-width: 280px; 
+}
+.Me {
+    display: block; 
+    width: 100%;
+    height: auto; 
+    margin: 20px auto; 
+}
+
+/* Picture Gallery*/
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+  
+.responsive {
+    padding: 0 6px;
+    width: 100%;
+    border: #3bc9db;
+}
+
+.pics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+    gap: 10px; 
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    max-width: 800px;  
+    margin: 20px auto; 
+    padding: 20px;
+    background: #3bc9db;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    min-width: 280px; 
+}
+
+/* ------------------------- Page : CV --------------------------- */ 
+.content {
+    max-width: 800px; 
+    margin: 20px auto;
+    padding: 20px;
+    background: #3bc9db; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+.text-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 10px;
+}
+.text p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    margin: 0;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* ------------------------- Page : CONTACT ---------------------- */ 
+.section {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+}
+#myfor{
+    width: 98% !important;
+}
+label{
+    display: flex;
+    text-align: left;
+    }
+
+.input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #3cc1ff;
+    width: 100%;
+}
+textarea.input {
+    height: 150px; 
+    font-family: inherit; 
+}
+button {
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: #087282;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+/* ------------------------- Page : CERTIFICATES ---------------- */ 
+.content {
+    max-width: 800px; 
+    margin: 20px auto;
+    padding: 20px;
+    background: #3bc9db; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    border: 2px solid rgb(0, 35, 102);
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    Font-family:Lobster;
+    border: 2px solid rgb(0, 35, 102);
+    text-align: left;
+    padding: 8px;
+    background-color: #333;
+    color:#78caeb;
+  }
+
+  tr:nth-child(even) {
+    background-color:#087282;;
+    color: #eee;
+  }
+  tr:nth-child(odd) {
+    background-color: #eee;
+    color:#060667;
+  }
+
+/* ------------------------- Page : PDF ------------------------- */ 
+
+.column{
+    max-width: 800px;  
+    margin: 20px auto;
+    padding: 20px;
+    background: #3bc9db;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    min-width: 280px; 
+    text-align: center; 
+}
+
+/* -------------------------- FONTS ----------------------------- */  
+@font-face {
+    font-family: 'Futura';
+    src: url('./futura/FuturaPTBook.otf') format('opentype'); 
+    
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src:url('./lobster/Lobster-Regular.ttf') format('truetype');
+    
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* -------------------------- Querys ---------------------------- */
+/* Query for Menu animation */
+@media (max-width: 800px) {
+    nav {
+        flex-direction: column;
+    }
+
+    #navbarLogo {
+        display:none;
+    }
+
+    nav a,
+    nav button {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column; 
+        width: 100%; 
+        background: #087282; 
+        padding: 10px 0; 
+    }
+
+    .menu.show {
+        display: flex; 
+    }
+
+    .menu-button {
+        display: block; 
+    }
+    
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .abme, .HnI {
+        margin: 10px 0;
+    }
+}
+
+/* Query for index animation */
+@media (max-width: 850px) {
+    nav {
+        padding: 5px 0; 
+    }
+
+    nav a,
+    nav button {
+        font-size: 14px; 
+    }
+
+    .abme, .HnI {
+        padding: 15px; 
+    }
+}
+@media (max-width: 600px) {
+    .Me {
+        max-width: 90%; 
+    }
+}
+
+/* Query for IMG-Gallery responsiveness */
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49%;
+      margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+}
+
+/* Query for CV animation */
+@media only screen and (max-width: 600px) {
+    .content {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .left, .right {
+        margin: 10px 0;
+    }
+}
+@media (max-width: 700px) {
+   #impressumButton {
+        margin: 0 25%;
+    }
+}
