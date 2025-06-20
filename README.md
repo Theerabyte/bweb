@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Overview
+I am creating a ***personal website*** to showcase my skills and achievements, providing a central hub for potential employers to learn more about me.
 
-## Getting Started
+# Project Goals
+The primary goal of this project is to create a clean, intuitive, and informative website that highlights my experience, skills, and accomplishments.
 
-First, run the development server:
+The lesser goal of this project is to fasten my knowledge in React, Next.js and such Technologies.
 
+# Project Structure
+This repository contains the source code for the website, including a personal dictionary, a global css,all my React-pages, React-components and of course the Next.js files.
+## Folderstructure
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+web-ncb/
+│
+├── public/
+│   ├── ba.jpg
+│   ├── bu.jpg
+│   ├── da.jpg
+│   ├── dm.jpg
+│   ├── fm.jpg
+│   ├── gp.jpg
+│   ├── ic.jpg
+│   ├── files.svg
+│   ├── vercel.svg
+│   ├── next.svg
+│   └── window.svg
+│
+└── src/
+    ├── [language]/
+    │   ├── en.js
+    │   ├── de.js
+    │   ├── fr.js
+    │
+    ├── app/
+    │   ├── styles/
+    │   │   ├── global.css
+    │   │   ├── lobster/
+    │   │   │   ├── lobster.ttf
+    │   │   └── futura/
+    │   │       ├── futura.otf
+    │   ├── tabs/
+    │   │   ├── Certificates/
+    │   │   │   └── page.js
+    │   │   ├── Contact/
+    │   │   │   └── page.js
+    │   │   ├── CV/
+    │   │   │   └── page.js
+    │   │   ├── Home/
+    │   │   │   └── page.js
+    │   │   └── Private/
+    │   │       └── page.js
+    │   ├── favicon.ico
+    │   ├── layout.js
+    │   └── page.js
+    ├── components/
+        ├── Bav.js
+        ├── LanguageSwitcher.js
+        └── Nav.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Features
+The website features a Homepage with pictures and hobbies, a CV-page with a timeline, a project-page, a private page and a contact page. All this is available in English, French and German.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Technologies Used
+This project utilizes React, Next JS, HTML, CSS, Embla Carousel, Verticale-timeline and more.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Deployment
+The website will be deployed at `[Website url following]`and is regularly updated with new content and features.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Contributing
+This is a personal project, but if you have any suggestions or ideas, feel free to contact me here on git Hub or find my contact info in my Contact-page.
