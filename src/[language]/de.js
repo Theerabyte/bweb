@@ -17,7 +17,33 @@ export const de = {
   cvText: "Auf dieser Seite können Sie siche über meinen Schulischen und nicht-Schluischen Werdegang informieren:",
   school:"Ich absolviere aktuell eine Ausbildung zur Applikationsentwicklerin EFZ mit Berufsmaturität in Wirtschaft an der IMS Bern. Diese Ausbildung ermöglicht es mir, Kenntnisse in der Softwareentwicklung zu erwerben und gleichzeitig wirtschaftliche Aspekte zu integrieren. Zuvor besuchte ich die Sekundarschule in Vechigen, die Primarschule und Kindergarten in Utzigen. Um praktische Erfahrungen zu sammeln, nahm ich an verschiedenen Schnuppertagen in unterschiedlichen Unternehmen teil, was mir wertvolle Einblicke in die Berufswelt ermöglichte und meinen Entschluss, in die Applikationsentwicklung einzusteigen, bestärkte.",
   private: "Von 2013 bis 2023 engagierte ich mich aktiv bei den Pfadi Mühlistei in Deiswill bei Bern, wo ich viele wertvolle Erfahrungen in Gruppendynamik, Teamarbeit und Gruppenführung sammeln konnte. In 2014 entdeckte ich meine Leidenschaft für das Tanzen an der Ballettschule Alfonsos in Boll bei Bern, wo ich meine tänzerischen Fähigkeiten vertiefte. Kurz darauf tauchte ich in die Welt des Eiskunstlaufs ein, indem ich von 2015 bis 2017 im Cool Dreams EC Burgdorf trainierte und seit 2022 beim EC Münchenbuchsee trainiere. Ich interessiere mich auch für Science-Fiction-Romane, die ich leidenschaftlich gerne auf Englisch und Deutsch lese.",
-//Certificates
+  cvAdam1: "",
+  cvAdam2: "IMS Bern",
+  cvAdam3: "",
+  
+  cvBravo1: "Primar- und Sekundarschule",
+  cvBravo2: "Utzigen, Vechigen, Littewil",
+  cvBravo3: "",
+  
+  cvCharlie1: "Pfadfinderei",
+  cvCharlie2: "Pfadi Mühlistei, Deiswill",
+  cvCharlie3: "",
+
+  cvDelta1: "Ballet",
+  cvDelta2: "Alfonsos Balletschule",
+  cvDelta3: "",
+
+  cvEdward1: "Eiskunstlaufen",
+  cvEdward2: "EC Burgdorf",
+  cvEdward3: "",
+
+  cvFrank1: "EC Münchenbuchsee",
+  cvFrank2: "",
+
+  cvGeorge1: "Romane lesen",
+  cvGeorge2: "Deutsch und Englisch",
+  cvGeorge3: "",
+  //Certificates
   certiText: "Auf dieser Seite können Sie sich über alle Zertifikate informieren, die ich in den letzten 16 Jahren erworben habe:",
   ceName: "Name",
   ceDesc: "Beschreibung",

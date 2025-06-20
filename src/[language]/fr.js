@@ -17,7 +17,33 @@ export const fr = {
   cvText: "Sur cette page, vous serez informé de mon parcours éducatif et non éducatif :",
   school: "Je suis actuellement en formation d'application developer EFZ avec un baccalauréat professionnel en commerce à l'IMS Bern. Cette formation me permet d'acquérir des connaissances en développement logiciel tout en intégrant des aspects économiques. Avant cela, j'ai fréquenté le lycée à Vechigen, l'école primaire à Utzigen et Littewil, ainsi que la maternelle à Utzigen. Afin d'acquérir une expérience pratique, j'ai participé à diverses journées d'activités dans différentes entreprises, ce qui m'a permis d'obtenir des insights précieux sur le monde professionnel et de renforcer ma décision de poursuivre le développement d'applications.",
   private: "De 2013 à 2023, j'ai été activement impliqué dans les Scouts, Pfadi Mühlistei à Deiswill près de Bern, où j'ai acquis beaucoup d'expérience en dynamique de groupe et en travail d'équipe. En 2014, j'ai découvert ma passion pour la danse à l'École de ballet Alfonsos à Boll près de Bern, où j'ai développé mes compétences en danse. Peu de temps après, je me suis immergé dans le monde du patinage artistique en participant aux Cool Dreams du EC Burgdorf de 2015 à 2017 et je m'entraîne actuellement à EC Münchenbuchsee depuis 2022. Je suis également passionné par les romans de science-fiction, que je lis avec passion, en anglais et en allemand.",
-//Certificates
+  cvAdam1: "",
+  cvAdam2: "IMS Berne",
+  cvAdam3: "",
+  
+  cvBravo1: "",
+  cvBravo2: "",
+  cvBravo3: "",
+  
+  cvCharlie1: "",
+  cvCharlie2: "",
+  cvCharlie3: "",
+
+  cvDelta1: "",
+  cvDelta2: "",
+  cvDelta3: "",
+
+  cvEdward1: "",
+  cvEdward2: "",
+  cvEdward3: "",
+
+  cvFrank1: "",
+  cvFrank2: "",
+
+  cvGeorge1: "",
+  cvGeorge2: "",
+  cvGeorge3: "",
+  //Certificates
   certiText: "Sur cette page, vous trouverez tous les certificats que j’ai obtenus au cours des 16dernières années:",
   ceName: "Nom",
   ceDesc: "Description",

@@ -13,10 +13,12 @@ import { fr } from '@/[language]/fr';
 const translationsMap = { en, de, fr };
 
 const hobbies = [
-  { src: "/ic.jpg", alt: "Iceskating", desc:"Iceskating" },
   { src: "/da.jpg", alt: "Dancing", desc: "Dancing" },
   { src: "/bu.jpg", alt: "Reading", desc: "Reading" },
-  { src: "/ba.jpg", alt: "Baking", desc: "Baking" }
+  { src: "/ba.jpg", alt: "Baking", desc: "Baking" },
+  { src: "/bu.jpg", alt: "Reading", desc: "Reading" },
+  { src: "/ic.jpg", alt: "Iceskating", desc:"Iceskating" },
+  { src: "/bu.jpg", alt: "Reading", desc: "Reading" }
 ];
 
 function page() {
@@ -37,18 +39,15 @@ function page() {
             <h2>{t.hoMe}</h2>
             <div style={{ whiteSpace: "pre-line",  fontSize: "18px"}}>
                 {t.hoTextMe}
-                <br />
                 <div style={{ textAlign: "center" }}>
-                    <a target="_blank" rel="noopener noreferrer" href="/img/img1.jpg">
-                      <div className="embla" ref={emblaRef}>      
-                        <div className="embla__container">
-                          <div className="embla__slide"><Image className="Me" src="/gp.jpg" alt={t.abravo} width={700} height={550}/>{t.bbravo}</div>
-                          <div className="embla__slide"><Image className='Me' src='/me.jpg' alt={t.aadam} width={700} height={550}/>{t.badam}</div>
-                          <div className="embla__slide"><Image className="Me" src="/fm.jpg" alt= {t.acharlie} width={700} height={550}/>{t.bcharlie}</div>
-                          <div className="embla__slide"><Image className="Me" src="/dd.jpg" alt= {t.adelta} width={700} height={550}/>{t.bdelta}</div>
-                        </div>    
-                      </div>
-                    </a>
+                    <div className="embla" ref={emblaRef}>      
+                      <div className="embla__container">
+                        <div className="embla__slide"><Image className="Me" src="/gp.jpg" alt={t.abravo} width={700} height={550}/>{t.bbravo}</div>
+                        <div className="embla__slide"><Image className='Me' src='/mm.jpg' alt={t.aadam} width={700} height={550}/>{t.badam}</div>
+                        <div className="embla__slide"><Image className="Me" src="/fm.jpg" alt= {t.acharlie} width={700} height={550}/>{t.bcharlie}</div>
+                        <div className="embla__slide"><Image className="Me" src="/dd.jpg" alt= {t.adelta} width={700} height={550}/>{t.bdelta}</div>
+                      </div>    
+                    </div>
                 </div>
             </div>
         </div>
@@ -63,8 +62,8 @@ function page() {
                       <Image
                         src={hobby.src}
                         alt={hobby.alt}
-                        width={500}
-                        height={400}
+                        width={300}
+                        height={200}
                         layout="responsive"
                         quality={75}
                       />
