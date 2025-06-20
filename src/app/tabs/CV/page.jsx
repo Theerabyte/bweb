@@ -74,8 +74,4 @@ function page() {
   )
 }
 
-
-
 export default page
-
-c  
