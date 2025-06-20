@@ -7,7 +7,7 @@ The primary goal of this project is to create a clean, intuitive, and informativ
 The lesser goal of this project is to fasten my knowledge in React, Next.js and such Technologies.
 
 # Project Structure
-This repository contains the source code for the website, including a personal dictionary, a global css,all my React-pages, React-components and of course the Next.js files.
+This repository contains the source code for the website, including a personal dictionary, a global css, all my React-pages, React-components and of course the Next.js files.
 ## Folderstructure
 ```bash
 web-ncb/
