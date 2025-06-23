@@ -8,7 +8,7 @@ The lesser goal of this project is to fasten my knowledge in React, Next.js and 
 
 # Project Structure
 This repository contains the source code for the website, including a personal dictionary, a global css, all my React-pages, React-components and of course the Next.js files.
-## Folderstructure
+## Folder structure
 ```bash
 web-ncb/
 │
@@ -20,6 +20,8 @@ web-ncb/
 │   ├── fm.jpg
 │   ├── gp.jpg
 │   ├── ic.jpg
+│   ├── me.jpg
+│   ├── mm.jpg
 │   ├── files.svg
 │   ├── vercel.svg
 │   ├── next.svg
@@ -27,17 +29,17 @@ web-ncb/
 │
 └── src/
     ├── [language]/
-    │   ├── en.js
     │   ├── de.js
+    │   ├── en.js
     │   ├── fr.js
     │
     ├── app/
     │   ├── styles/
-    │   │   ├── global.css
+    │   │   ├── futura/
+    │   │   │   ├── futura.otf
     │   │   ├── lobster/
     │   │   │   ├── lobster.ttf
-    │   │   └── futura/
-    │   │       ├── futura.otf
+    │   │   └── global.css
     │   ├── tabs/
     │   │   ├── Certificates/
     │   │   │   └── page.js

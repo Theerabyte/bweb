@@ -54,6 +54,9 @@ function page() {
         <div className="HnI">
             <h2>{t.hoHo}</h2>
             <h4>{t.hoTextHo}</h4>
+            <div style={{ padding: "6px"}}>
+                <p>{t.hoTextIn}</p>
+            </div>
             <div className="pics">
               {hobbies.map((hobby) => (
                 <div className="responsive" key={hobby.alt}>
@@ -74,9 +77,6 @@ function page() {
               ))}
             </div>
             <div className="clearfix"></div>
-            <div style={{ padding: "6px"}}>
-                <p>{t.hoTextIn}</p>
-            </div>
         </div>
     </div>
   )

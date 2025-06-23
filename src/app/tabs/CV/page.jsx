@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { School, MoonStar, Users, BookMarked, Origami } from 'lucide-react';
+import { School, Cake, Users, BookMarked, Origami } from 'lucide-react';
 import { useLanguage } from '@/[language]/LanguageContext';
 import 'react-vertical-timeline-component/style.min.css';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
@@ -26,49 +26,49 @@ function page() {
             <br />
         </div>
         <VerticalTimeline>
-          <VerticalTimelineElement className="vertical-timeline-element--work" contentStyle={{ background: 'rgb(33, 130, 100)', color: '#fff' }} contentArrowStyle={{ borderRight: '7px solid  rgb(33, 130, 100)' }} date="2023 - present" iconStyle={{ background: 'rgb(33, 130, 100)', color: '#fff' }} icon={<School />}>
-            <h3 className="vertical-timeline-element-title">{t.cvAdam1}</h3>
-            <h4 className="vertical-timeline-element-subtitle">{t.cvAdam2}</h4>
+          <VerticalTimelineElement className="vertical-timeline-element--work" contentStyle={{ background: 'rgb(12, 86, 63)', color: '#fff' }} contentArrowStyle={{ borderRight: '7px solid  rgb(12, 86, 63)' }} date="2023 - present" iconStyle={{ background: 'rgb(12, 86, 63)', color: '#fff' }} icon={<School />}>
+            <h3 className="vertical-timeline-element-title" style={{color: 'rgb(0, 255, 174)'}}>{t.cvAdam1}</h3>
+            <h4 className="vertical-timeline-element-subtitle" style={{color: '#fff'}}>{t.cvAdam2}</h4>
             <p>{t.cvAdam3}</p>
           </VerticalTimelineElement>
 
-          <VerticalTimelineElement className="vertical-timeline-element--work" date="2014 - 2023" iconStyle={{ background: 'rgb(40, 30, 245)', color: '#fff' }} icon={<School />}>
-            <h3 className="vertical-timeline-element-title">{t.cvBravo1}</h3>
+          <VerticalTimelineElement className="vertical-timeline-element--work" date="2014 - 2023" iconStyle={{ background: 'rgb(33, 130, 100)', color: '#fff' }} icon={<School />}>
+            <h3 className="vertical-timeline-element-title" style={{color: 'rgb(33, 130, 100)'}}>{t.cvBravo1}</h3>
             <h4 className="vertical-timeline-element-subtitle">{t.cvBravo2}</h4>
             <p>{t.cvBravo3}</p>
           </VerticalTimelineElement>
 
-          <VerticalTimelineElement className="vertical-timeline-element--work" date="2013 - 2023" iconStyle={{ background: 'rgb(40, 30, 245)', color: '#fff' }} icon={<Users />}>
-            <h3 className="vertical-timeline-element-title">{t.cvCharlie1}</h3>
+          <VerticalTimelineElement className="vertical-timeline-element--work" date="2013 - 2023" iconStyle={{ background: 'rgb(55, 158, 126)', color: '#fff' }} icon={<Users />}>
+            <h3 className="vertical-timeline-element-title" style={{color: 'rgb(55, 158, 126)'}}>{t.cvCharlie1}</h3>
             <h4 className="vertical-timeline-element-subtitle">{t.cvCharlie2}</h4>
             <p>{t.cvCharlie3}</p>
           </VerticalTimelineElement>
 
-          <VerticalTimelineElement className="vertical-timeline-element--work" date="2014 - 2015" iconStyle={{ background: 'rgb(150, 15, 120)', color: '#fff' }} icon={<Origami/>}>
-            <h3 className="vertical-timeline-element-title">{t.cvDelta1}</h3>
+          <VerticalTimelineElement className="vertical-timeline-element--work" date="2014 - 2015" iconStyle={{ background: 'rgb(76, 188, 143)', color: '#fff' }} icon={<Origami/>}>
+            <h3 className="vertical-timeline-element-title" style={{color: 'rgb(76, 188, 143)'}}>{t.cvDelta1}</h3>
             <h4 className="vertical-timeline-element-subtitle">{t.cvDelta2}</h4>
             <p>{t.cvDelta3}</p>
           </VerticalTimelineElement>
 
-          <VerticalTimelineElement className="vertical-timeline-element--education" date="2015 - 2017" iconStyle={{ background: 'rgb(200, 15, 60)', color: '#fff' }} icon={<Origami />}>
-            <h3 className="vertical-timeline-element-title">{t.cvEdward1}</h3>
-            <h4 className="vertical-timeline-element-subtitle">{t.cvEdward2}</h4>
-            <p>{t.cvEdward3}</p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement className="vertical-timeline-element--education" date="2022 - Present" iconStyle={{ background: 'rgb(200, 15, 60)', color: '#fff' }} icon={<Origami />}>
-            <h3 className="vertical-timeline-element-title">{t.cvEdward1}</h3>
+          <VerticalTimelineElement className="vertical-timeline-element--education" date="2022 - Present" iconStyle={{ background: 'rgb(129, 205, 119)', color: '#fff' }} icon={<Origami />}>
+            <h3 className="vertical-timeline-element-title" style={{color: 'rgb(129, 205, 119)'}}>{t.cvEdward1}</h3>
             <h4 className="vertical-timeline-element-subtitle">{t.cvFrank1}</h4>
             <p>{t.cvFrank2}</p>
           </VerticalTimelineElement>
 
-          <VerticalTimelineElement className="vertical-timeline-element--education" date="2015 - Present" iconStyle={{ background: 'rgb(200, 15, 60)', color: '#fff' }} icon={<BookMarked />}>
-            <h3 className="vertical-timeline-element-title">{t.cvGeorge1}</h3>
+          <VerticalTimelineElement className="vertical-timeline-element--education" date="2015 - 2017" iconStyle={{ background: 'rgb(224, 221, 123)', color: '#fff' }} icon={<Origami />}>
+            <h3 className="vertical-timeline-element-title" style={{color: 'rgb(224, 221, 123)'}}>{t.cvEdward1}</h3>
+            <h4 className="vertical-timeline-element-subtitle">{t.cvEdward2}</h4>
+            <p>{t.cvEdward3}</p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement className="vertical-timeline-element--education" date="2015 - Present" iconStyle={{ background: 'rgb(246, 229, 72)', color: '#fff' }} icon={<BookMarked />}>
+            <h3 className="vertical-timeline-element-title" style={{color: 'rgb(246, 229, 72)'}}>{t.cvGeorge1}</h3>
             <h4 className="vertical-timeline-element-subtitle">{t.cvGeorge2}</h4>
             <p>{t.cvGeorge3}</p>
           </VerticalTimelineElement>
 
-          <VerticalTimelineElement iconStyle={{ background: 'rgb(15, 15, 100)', color: '#fff' }}  icon={<MoonStar />} />
+          <VerticalTimelineElement iconStyle={{ background: 'rgb(255, 225, 0)', color: '#fff' }}  icon={<Cake />} />
         </VerticalTimeline>
     </div>
   )
