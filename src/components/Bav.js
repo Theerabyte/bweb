@@ -58,7 +58,7 @@ function Bav() {
             </div>
         </div>
         <footer className="y">
-            <p>HS 2024 Gibb | N.Bächler
+            <p>Utzigen | N.Bächler
                 <button id="impressumButton" style={{ marginLeft: "20%" }} onClick={handleImpressumClick}>{t.impressumButton}</button>
             </p>
         </footer>

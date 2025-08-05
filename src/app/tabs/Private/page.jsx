@@ -1,6 +1,7 @@
 'use client'
 
-import React from 'react'
+// import Auth from '@/components/Auth';
+import React from 'react';
 import { useLanguage } from '@/[language]/LanguageContext';
 
 import { en } from '@/[language]/en';
@@ -9,19 +10,9 @@ import { fr } from '@/[language]/fr';
 
 const translationsMap = { en, de, fr };
 
-const users = [
-  { username: 'admin', password: 'sml1234' },
-  { username: 'zkb', password: 'ZKB@passwort98' },
-];
-
 function page() {
   const { language, changeLanguage } = useLanguage();
   const t = translationsMap[language];
-
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
   
   const gradesheetURL = 'https://yourdomain.com/files/gradesheet.pdf';
   const vocDocsURLs = [
@@ -29,64 +20,15 @@ function page() {
     'https://yourdomain.com/files/voc2.pdf',
   ];
 
-  // nur in Enlish !!!
-  const handleLogin = () => { 
-    const user = users.find(
-      (u) => u.username === username && u.password === password
-    );
-    if (user) {
-      setIsAuthenticated(true);
-      setError('');
-    } else {
-    setError('Invalid Username or Password.');
-    }
-  };
-
-  const handleLogout = () => {
-    setIsAuthenticated(false);
-    setUsername('');
-    setPassword('');
-    setError('');
-  };
-
   return (
-    <div className="column" style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
-      {!isAuthenticated ? (
-        <div style={{ maxWidth: '300px', margin: '0 auto', border: '1px solid #ccc', padding: '20px', borderRadius: '8px' }}>
-          <h2 style={{ textAlign: 'center' }}>{t.prLoI}</h2>
-          <div style={{ marginBottom: '10px' }}>
-            <label>
-              {t.prNa}
-              <input
-                type="text"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                style={{ width: '100%', padding: '8px', marginTop: '4px', borderRadius: '4px', border: '1px solid #ccc' }}
-              />
-            </label>
-          </div>
-          <div style={{ marginBottom: '10px' }}>
-            <label>
-              {t.prPa}
-              <input
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                style={{ width: '100%', padding: '8px', marginTop: '4px', borderRadius: '4px', border: '1px solid #ccc' }}
-              />
-            </label>
-          </div>
-          <button onClick={handleLogin}>{t.prLoI}</button>
-          {error && <p style={{ color: 'darkred', marginTop: '10px' }}>{error}</p>}
-        </div>
-      ) : (
+    <div className="column">
+      {/* <Auth /> */}
         <div>
           <div style={{ display: 'flex', justifyContent: 'space-between'}}>
-            <h2>{t.prText}</h2>
-            <h4>{t.prTextpr}</h4>
-            <button onClick={handleLogout}>{t.prLoU}</button>
+            <h2>{t.moin}</h2>
+            <h4>{t.prText}</h4>
+            {/* <button onClick={handleLogout}>{t.prLoU}</button> */}
           </div>
-
           <section style={{ marginTop: '20px' }}>              
             <table>
                 <thead>
@@ -201,7 +143,6 @@ function page() {
             </ul>
           </section>
         </div>
-      )}
     </div>
   );
 }

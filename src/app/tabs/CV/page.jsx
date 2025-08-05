@@ -20,7 +20,7 @@ function page() {
     <div className="column">
         <h2>{t.moin}</h2>
         <h4>{t.cvText}</h4>
-        <div class="text-grid">
+        <div className="text-grid">
             <p>{t.school}</p>
             <p>{t.private}</p>
             <br />
@@ -52,13 +52,13 @@ function page() {
 
           <VerticalTimelineElement className="vertical-timeline-element--education" date="2022 - Present" iconStyle={{ background: 'rgb(129, 205, 119)', color: '#fff' }} icon={<Origami />}>
             <h3 className="vertical-timeline-element-title" style={{color: 'rgb(129, 205, 119)'}}>{t.cvEdward1}</h3>
-            <h4 className="vertical-timeline-element-subtitle">{t.cvFrank1}</h4>
-            <p>{t.cvFrank2}</p>
+            <h4 className="vertical-timeline-element-subtitle">EC Münchenbuchsee</h4>
+            <p>{t.cvFrank1}</p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement className="vertical-timeline-element--education" date="2015 - 2017" iconStyle={{ background: 'rgb(224, 221, 123)', color: '#fff' }} icon={<Origami />}>
             <h3 className="vertical-timeline-element-title" style={{color: 'rgb(224, 221, 123)'}}>{t.cvEdward1}</h3>
-            <h4 className="vertical-timeline-element-subtitle">{t.cvEdward2}</h4>
+            <h4 className="vertical-timeline-element-subtitle">EC Burgdorf</h4>
             <p>{t.cvEdward3}</p>
           </VerticalTimelineElement>
 
@@ -68,8 +68,53 @@ function page() {
             <p>{t.cvGeorge3}</p>
           </VerticalTimelineElement>
 
-          <VerticalTimelineElement iconStyle={{ background: 'rgb(255, 225, 0)', color: '#fff' }}  icon={<Cake />} />
+          <VerticalTimelineElement date='January 2008' iconStyle={{ background: 'rgb(255, 225, 0)', color: '#fff' }}  icon={<Cake />} />
         </VerticalTimeline>
+
+        <div className="content">
+            <h4>{t.certText}</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>{t.crName}</th>
+                        <th>{t.crDesc}</th>
+                        <th>{t.crDate}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{t.crN1}</td>
+                        <td>{t.crD1}</td>
+                        <td>25.01.2025</td>
+                    </tr>
+                    <tr>
+                        <td>{t.crN1}</td>
+                        <td>{t.crD2}</td>
+                        <td>27.01.2024</td>
+                    </tr>
+                    <tr>
+                        <td>{t.crN3}</td>
+                        <td>{t.crD3}</td>
+                        <td>14.02.2023</td>
+                    </tr>
+                    <tr>
+                        <td>{t.crN4}</td>
+                        <td>{t.crD4}</td>
+                        <td>26.05.2018</td>
+                    </tr>
+                    <tr>
+                        <td>{t.crN5}</td>
+                        <td>{t.crD5}</td>
+                        <td>15.02.2018</td>
+                    </tr>
+                    <tr>
+                        <td>{t.crN1}</td>
+                        <td>{t.crD6}</td>
+                        <td>12.12.2016</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
   )
 }
