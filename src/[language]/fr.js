@@ -1,6 +1,7 @@
 export const fr = {
   moin: "Bonjour",
-  welc: "Bienvenue chez Naomi Bächler !",
+  welc: "Bienvenue sur mon portfolio en ligne!",
+  logo: "Mon Logo",
 //Impressum
   impressum: "Mentions légales",
   contact: "Contact:",
@@ -59,14 +60,14 @@ export const fr = {
   contSp2: "ici",
   contSp3: "!",
 //Menu
-  home: "Accueil",
-  cv: "CV",
+  home: "Mon Monde",
+  cv: "Curriculum",
   proj: "Projets",
-  priv: "Privé",
+  priv: "Tésor des Compétences",
   cont: "Contact",
 //Home
   hoMe: "À propos de moi",
-  hoTextMe: "Je m'appelle Naomi, mon type Myers-Briggs est ENFP, j'ai 17 ans et je suis née en janvier 2008. J'étudie l'informatique à l'IMS de Berne, avec une maturité professionnelle en commerce et un diplôme fédéral en développement d'applications.\nPendant mon temps libre, je fais du patin à glace et d'autres activités. Vous trouverez plus d'informations à ce sujet dans l'article de droite.\n\nMes frères et sœur m'accompagnent depuis toujours et c'est grâce à eux que j'apprécie les gens. Je suis fier de la merveilleuse relation que nous entretenons avec eux.\n Par exemple, nous ne nous disputons presque jamais et communiquons activement, même si nous ne vivons plus sous le même toit. Grâce à mon père et à l'un de mes frères, j'apprécie beaucoup l'informatique, et grâce à mes études, je peux améliorer mes connaissances et les mettre en pratique chaque jour.\n\nJe ne sais pas encore ce que l'avenir me réserve, mais l'un de mes objectifs est de m'engager dans l'armée, que ce soit dans la division d'infanterie aéroportée ou dans la défense NBC. J'aimerais aussi voyager dans différents pays, mais je ne suis pas encore aussi ambitieux.\n",
+  hoTextMe: "Je m'appelle Naomi, j'ai 17 ans, je suis née en janvier 2008 et mon type Myers-Briggs est ENFP. J'étudie l'informatique à l'IMS de Berne, avec une maturité professionnelle en commerce et un diplôme fédéral en développement d'applications.\nPendant mon temps libre, je fais du patin à glace et d'autres activités. Vous trouverez plus d'informations à ce sujet dans l'article de droite.\n\nMes frères et sœur m'accompagnent depuis toujours et c'est grâce à eux que j'apprécie les gens. Je suis fier de la merveilleuse relation que nous entretenons avec eux.\n Par exemple, nous ne nous disputons presque jamais et communiquons activement, même si nous ne vivons plus sous le même toit. Grâce à mon père et à l'un de mes frères, j'apprécie beaucoup l'informatique, et grâce à mes études, je peux améliorer mes connaissances et les mettre en pratique chaque jour.\n\nJe ne sais pas encore ce que l'avenir me réserve, mais l'un de mes objectifs est de m'engager dans l'armée, que ce soit dans la division d'infanterie aéroportée ou dans la défense NBC. J'aimerais aussi voyager dans différents pays, mais je ne suis pas encore aussi ambitieux.\n",
   hoHo: "Loisirs et centres d’intérêt",
   hoTextHo: "Voici mes loisirs, que je pratique le week-end et pendant les vacances d’automne, de printemps et d’hiver :",
   hoTextIn: "Pendant les vacances d’été, je me consacre généralement aux quatre activités suivantes : jouer, dormir, nager et passer du temps avec mon chaton. J’apprécie chacune de ces activités toute l’année.",

@@ -29,7 +29,7 @@ function page() {
     { src: "/hob/bu.jpg", alt: t.bu, desc: t.bu, resc: t.bud },
     { src: "/hob/da.jpg", alt: t.da, desc: t.da, resc: t.dad },
     { src: "/hob/ic.jpg", alt: t.ic, desc: t.ic, resc: t.icd },
-    { src: "/hob/bu.jpg", alt: t.dn, desc: t.dn, resc: t.dnd },
+    { src: "/hob/dn.jpg", alt: t.dn, desc: t.dn, resc: t.dnd },
     { src: "/hob/bu.jpg", alt: t.pc, desc: t.pc, resc: t.pcd },
     { src: "/hob/bw.jpg", alt: t.bw, desc: t.bw, resc: t.bwd },
     { src: "/hob/bu.jpg", alt: t.mu, desc: t.mu, resc: t.mud }

@@ -14,10 +14,10 @@ function page() {
   const { language, changeLanguage } = useLanguage();
   const t = translationsMap[language];
   
-  const gradesheetURL = 'https://yourdomain.com/files/gradesheet.pdf';
+  const gradesheetURL = 'https://www.family.baechler.name/';
   const vocDocsURLs = [
-    'https://yourdomain.com/files/voc1.pdf',
-    'https://yourdomain.com/files/voc2.pdf',
+    'https://www.family.baechler.name/',
+    'https://www.family.baechler.name/',
   ];
 
   return (

@@ -1,6 +1,7 @@
 export const en = {
   moin: "Hello",
-  welc: "Welcome to the Naomi Bächler!",
+  welc: "Welcome to my online portfolio!",
+  logo: "My Logo",
 // Impressum
   impressum: "Imprint",
   contact: "Contact:",
@@ -60,14 +61,14 @@ export const en = {
   cvGeorge2: "English and German",
   cvGeorge3: "Passionate about exploring science fiction and non fiction literature",
 //Menu
-  home: "Home",
-  cv: "CV",
+  home: "My World",
+  cv: "Resume",
   proj: "Projects",
-  priv: "Private",
+  priv: "Skill Vault",
   cont: "Contact",
 //Home
   hoMe: "About Me :",
-  hoTextMe: "My name is Naomi, my Myers-Briggs type is ENFP, I am 17 years old and I was born in january of 2008. I am studying computer science at the IMS Bern to get my degree in economics and information technologies, with a specialization in application development.\n In my free time I do ice skating and other stuff, you can see more on this topic in the entry on the right.\n\n My whole life, I had my siblings with me, and they are the reason why I generally like people. I am proud to say that my siblings and I have an excellent bond.\n For example, we almost never fight and have active interactions, although we don't live in the same house anymore. Thanks to my father and one of my brothers, computer science is one thing I really like, and thanks to my education, I can improve my knowledge and the application of this knowledge from day to day. \n\n I don't know what my future holds yet, but one of my goals is to join the military, whether in the airborne infantry division or in NBC defense. Another goal I'd like to achieve in life is to travel to different countries, but I'm not quite as ambitious about that yet.\n",
+  hoTextMe: "My name is Naomi, I am 17 years old, I was born in january of 2008 and my Myers-Briggs type is ENFP. I am studying computer science at the IMS Bern to get my degree in economics and information technologies, with a specialization in application development.\n In my free time I do ice skating and other stuff, you can see more on this topic in the entry on the right.\n\n My whole life, I had my siblings with me, and they are the reason why I generally like people. I am proud to say that my siblings and I have an excellent bond.\n For example, we almost never fight and have active interactions, although we don't live in the same house anymore. Thanks to my father and one of my brothers, computer science is one thing I really like, and thanks to my education, I can improve my knowledge and the application of this knowledge from day to day. \n\n I don't know what my future holds yet, but one of my goals is to join the military, whether in the airborne infantry division or in NBC defense. Another goal I'd like to achieve in life is to travel to different countries, but I'm not quite as ambitious about that yet.\n",
   hoHo: "Hobbies and Interests",
   hoTextHo: "Below are my hobbies which I do on weekends and on fall-, spring- and winter breaks:",
   hoTextIn: "During summer break I usually do the following four activities: gaming, sleeping, swimming and spending time with my kitten. Although I enjoy every listed activity throughout the year.",

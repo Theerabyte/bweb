@@ -1,13 +1,13 @@
 'use client'
 
 import React from 'react'
-import Home from '@/app/tabs/Home/page';
+import Go from '@/components/Go'
 
 function page() {
-
-
   return (
-    <Home />
+    <>
+      <Go />
+    </>
   )
 }
 

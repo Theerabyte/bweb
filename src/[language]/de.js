@@ -1,6 +1,7 @@
 export const de = {
   moin: "Hallo",
-  welc: "Willkommen bei der Naomi Bächler!",
+  welc: "Willkommen zu meinem Onlineportfolio!",
+  logo: "Mein Logo",
 // Impressum
   impressum: "Impressum",
   contact: "Kontakt:",
@@ -60,14 +61,14 @@ export const de = {
   contSp2: "hier",
   contSp3: " tun!",
 //Menu
-  home: "Startseite",
+  home: "Meine Welt",
   cv: "Lebenslauf",
   proj: "Projekte",
-  priv: "Privat",
+  priv: "Fähigkeitentresor",
   cont: "Kontakt",
 //Home
   hoMe: "Über mich:",
-  hoTextMe: "Mein Name ist Naomi, mein Myers-Briggs-Typ ist ENFP, ich bin 17 Jahre alt und bin im Januar 2008 geboren. Ich erlerne Informatik an der IMS Bern mit Berufsmatur in Wirtschaft und EFZ in Applikationsentwicklung.\n In meiner Freizeit gehe ich Schlittschuhlaufen und mache andere Sachen, mehr dazu erfahrt ihr im Eintrag rechts. \n\n Meine Geschwister haben mich mein ganzes Leben lang begleitet, und sie sind der Grund, warum ich Menschen grundsätzlich mag. Ich bin stolz darauf, dass meine Geschwister und ich eine wunderbare Beziehung haben.\n Wir streiten uns zum Beispiel fast nie und haben einen aktiven Austausch, obwohl wir nicht mehr im selben Haus wohnen. Dank meines Vaters und einer meiner Brüder mag ich Informatik sehr und dank meiner Ausbildung kann ich mein Wissen und die Anwendung dieses Wissens täglich verbessern. \n\n Ich weiß noch nicht, wie meine Zukunft aussehen wird, aber ein Ziel von mir ist es, dem Militär beizutreten, sei es in der Flugfeldsoldatenabteilung oder in der ABC-Abwehr. Ein weiteres Ziel, das ich mir im Leben gerne wünsche, ist eine Reise durch verschiedene Länder, aber da bin ich noch nicht ganz so ehrgeizig. \n",
+  hoTextMe: "Mein Name ist Naomi, ich bin 17 Jahre alt, bin im Januar 2008 geboren und mein Myers-Briggs-Typ ist ENFP. Ich erlerne Informatik an der IMS Bern mit Berufsmatur in Wirtschaft und EFZ in Applikationsentwicklung.\n In meiner Freizeit gehe ich Schlittschuhlaufen und mache andere Sachen, mehr dazu erfahrt ihr im Eintrag rechts. \n\n Meine Geschwister haben mich mein ganzes Leben lang begleitet, und sie sind der Grund, warum ich Menschen grundsätzlich mag. Ich bin stolz darauf, dass meine Geschwister und ich eine wunderbare Beziehung haben.\n Wir streiten uns zum Beispiel fast nie und haben einen aktiven Austausch, obwohl wir nicht mehr im selben Haus wohnen. Dank meines Vaters und einer meiner Brüder mag ich Informatik sehr und dank meiner Ausbildung kann ich mein Wissen und die Anwendung dieses Wissens täglich verbessern. \n\n Ich weiß noch nicht, wie meine Zukunft aussehen wird, aber ein Ziel von mir ist es, dem Militär beizutreten, sei es in der Flugfeldsoldatenabteilung oder in der ABC-Abwehr. Ein weiteres Ziel, das ich mir im Leben gerne wünsche, ist eine Reise durch verschiedene Länder, aber da bin ich noch nicht ganz so ehrgeizig. \n",
   hoHo: "Hobbies und Interessen",
   hoTextHo: "In den Herbst-, Winter- und Frühlingsferien und an Wochenenden mache ich mit Vorliebe nachfolgende Hobbies: ",
   hoTextIn: "In den Sommerferien widme ich mich normalerweise folgenden vier Aktivitäten: Spielen, Schlafen, Schwimmen und Zeit mit meinem Kätzchen verbringen. Obwohl ich jede dieser Aktivitäten das ganze Jahr über geniesse.",

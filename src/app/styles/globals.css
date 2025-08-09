@@ -74,6 +74,43 @@ nav .logo {
     vertical-align: middle;
 }
 
+.icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 2em;
+}
+
+.welcCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+
+.goCont {
+    position: relative;
+    display: inline-block;
+}
+
+.go {
+    display: block;
+    max-width: 650px;
+    height: auto;
+}
+
+#welc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding-bottom: 15rem;
+    white-space: nowrap;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
 .menu-button {
     background: none;
     border: none;
@@ -100,6 +137,14 @@ nav .logo {
     background: transparent !important;
 }
 
+/* --- HEADINGS --- */
+h1 {
+    font-family: Lake;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 70px;
+}
+
 h2 {
     font-family: Lobster;
     color: #060667;
@@ -115,6 +160,23 @@ h4 {
     font-family: Futura;
     color: #333;
     text-align: center;
+}
+
+.langA {
+    height: 5;
+    width: 15;
+    cursor: pointer;
+    padding: 5px 5px !important;
+}
+
+.bgc {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background: #3bc9db;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 280px;
 }
 
 .modal {
@@ -139,23 +201,6 @@ h4 {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
     width: 80%;
-}
-
-.langA {
-    height: 5;
-    width: 15;
-    cursor: pointer;
-    padding: 5px 5px  !important;
-}
-
-.bgc {
-    flex: 1;
-    margin: 10px;
-    padding: 20px;
-    background: #3bc9db;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    min-width: 280px;
 }
 
 .close {
@@ -194,7 +239,7 @@ footer {
     width: 100%;
 }
 
-/* ------------------------- Page : INDEX ----------------------- */
+/* ------------------------- Page : HOME ----------------------- */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -344,7 +389,7 @@ button {
     white-space: nowrap;
 }
 
-/* ------------------------- Page : CERTIFICATES ---------------- */
+/* ------------------------- Page : PROJECTS ---------------- */
 .content {
     max-width: 800px;
     margin: 20px auto;
@@ -386,7 +431,7 @@ tr:nth-child(odd) {
     color: #060667;
 }
 
-/* ------------------------- Page : PDF ------------------------- */
+/* ------------------------- Page : VAULT ------------------------- */
 
 .column {
     max-width: 800px;
@@ -413,6 +458,14 @@ tr:nth-child(odd) {
     src: url('./lobster/Lobster-Regular.ttf') format('truetype');
 
     font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lake';
+    src: url('./lake/EagleLake-Regular.ttf') format('truetype');
+
+    font-weight: 400;
     font-style: normal;
 }
 
