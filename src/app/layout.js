@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import { LanguageProvider } from '@/[language]/LanguageContext';
-import "@/app/Styles/globals.css";
+import "@/app/styles/globals.css";
 import Nav from "@/components/Nav";
 import Bav from "@/components/Bav";
 
