@@ -4,7 +4,6 @@ import { useRef, useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { Menu } from 'lucide-react';
 import { useLanguage } from '@/[language]/LanguageContext';
-// import { window } from '@/';
 
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import { en } from '@/[language]/en';
@@ -18,7 +17,7 @@ function Nav() {
   const t = translationsMap[language];
 
   const [open, setOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 900);
+  const [isMobile, setIsMobile] = useState(false);
   const [isLangExpanded, setIsLangExpanded] = useState(false);
 
   const menuRef = useRef(null);
@@ -29,6 +28,7 @@ function Nav() {
       setIsMobile(window.innerWidth <= 900);
     };
 
+    handleResize();
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
