@@ -2,7 +2,7 @@
 
 import { useRef, useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { House, Menu, ChevronDown } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { useLanguage } from '@/[language]/LanguageContext';
 // import { window } from '@/';
 
@@ -18,20 +18,29 @@ function Nav() {
   const t = translationsMap[language];
 
   const [open, setOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 900);
+  const isMobile = useResize();
   const [isLangExpanded, setIsLangExpanded] = useState(false);
 
   const menuRef = useRef(null);
   const router = useRouter();
 
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 900);
-    };
+  const useResize = (win = typeof window !== 'undefined' ? window : null) => {
+    const [isMobile, setIsMobile] = React.useState(false);
 
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
+    React.useEffect(() => {
+      if (!win) return;
+
+      const handleResize = () => {
+        setIsMobile(win.innerWidth <= 900);
+      };
+
+      handleResize(); // check on mount
+      win.addEventListener('resize', handleResize);
+      return () => win.removeEventListener('resize', handleResize);
+    }, [win]);
+
+    return isMobile;
+  };
 
   const handleMenuToggle = () => {
     if (isMobile) {
