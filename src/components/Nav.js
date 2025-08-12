@@ -18,29 +18,20 @@ function Nav() {
   const t = translationsMap[language];
 
   const [open, setOpen] = useState(false);
-  const isMobile = useResize();
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 900);
   const [isLangExpanded, setIsLangExpanded] = useState(false);
 
   const menuRef = useRef(null);
   const router = useRouter();
 
-  const useResize = (win = typeof window !== 'undefined' ? window : null) => {
-    const [isMobile, setIsMobile] = React.useState(false);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 900);
+    };
 
-    React.useEffect(() => {
-      if (!win) return;
-
-      const handleResize = () => {
-        setIsMobile(win.innerWidth <= 900);
-      };
-
-      handleResize(); // check on mount
-      win.addEventListener('resize', handleResize);
-      return () => win.removeEventListener('resize', handleResize);
-    }, [win]);
-
-    return isMobile;
-  };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const handleMenuToggle = () => {
     if (isMobile) {
