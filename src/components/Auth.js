@@ -3,20 +3,18 @@
 import React, { useState } from 'react'
 import { useLanguage } from '@/[language]/LanguageContext';
 
-import { en } from '@/[language]/en';
-import { de } from '@/[language]/de';
-import { fr } from '@/[language]/fr';
-
-const translationsMap = { en, de, fr };
-
 const users = [
   { username: process.env.REACT_APP_USER1_USERNAME, password: process.env.REACT_APP_USER1_PASSWORD },
   { username: process.env.REACT_APP_USER2_USERNAME, password: process.env.REACT_APP_USER2_PASSWORD },
 ];
 
 function Auth({ onLoginSuccess }) {
-  const { language, changeLanguage } = useLanguage();
-  const t = translationsMap[language];
+  const { language } = useLanguage();
+  const t = {
+    en: { login: "Login", username: "Username", password: "Password", error: "Invalid Username or Password." },
+    de: { login: "Anmelden", username: "Benutzername", password: "Passwort", error: "Ungültiger Benutzername oder Passwort." },
+    fr: { login: "Connexion", username: "Nom d'utilisateur", password: "Mot de passe", error: "Nom d'utilisateur ou mot de passe invalide." }
+  }[language];
 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -38,7 +36,7 @@ function Auth({ onLoginSuccess }) {
     <div style={{ border: '1px solid #ccc', padding: 20, maxWidth: 300 }}>
       <h3>{t.login}</h3>
       <div>
-        <label>{t.prNa}:</label>
+        <label>{t.username}:</label>
         <input
           type="text"
           value={username}
