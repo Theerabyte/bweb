@@ -61,7 +61,7 @@ web-ncb/
     │   └── LanguageContext.js
     │
     ├── app/
-    │   ├── styles/
+    │   ├── [styles]/
     │   │   ├── futura/
     │   │   │   └── FuturaPTBook.otf
     │   │   ├── lake/
@@ -69,17 +69,16 @@ web-ncb/
     │   │   ├── lobster/
     │   │   │   └── Lobster-Regular.ttf
     │   │   └── global.css
-    │   ├── tabs/
-    │   │   ├── Contact/
-    │   │   │   └── page.jsx
-    │   │   ├── CV/
-    │   │   │   └── page.jsx
-    │   │   ├── Home/
-    │   │   │   └── page.jsx
-    │   │   ├── Projects/
-    │   │   │   └── page.jsx
-    │   │   └── Vault/
-    │   │       └── page.jsx
+    │   ├── Contact/
+    │   │   └── page.jsx
+    │   ├── CV/
+    │   │   └── page.jsx
+    │   ├── Home/
+    │   │   └── page.jsx
+    │   ├── Projects/
+    │   │   └── page.jsx
+    │   ├── Vault/
+    │   │   └── page.jsx
     │   ├── favicon.ico
     │   ├── layout.js
     │   └── page.js
