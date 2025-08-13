@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { Plus, X } from 'lucide-react';
+import React, { useState } from 'react'
+import { Plus, X } from 'lucide-react'
 import { DE, GB, FR } from 'country-flag-icons/react/3x2'
-import { useLanguage } from '@/[language]/LanguageContext';
+import { useLanguage } from '@/[language]/LanguageContext'
 
 const LanguageSwitcher = () => {
   const { changeLanguage } = useLanguage();
