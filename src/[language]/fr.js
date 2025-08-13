@@ -2,6 +2,7 @@ export const fr = {
   moin: "Bonjour",
   welc: "Bienvenue sur mon portfolio en ligne!",
   logo: "Mon Logo",
+  error: "Nom d’utilisateur ou mot de passe invalide.",
 //Impressum
   impressum: "Mentions légales",
   contact: "Contact:",

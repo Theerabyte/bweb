@@ -4,7 +4,7 @@ I am creating a ***personal website*** to showcase my skills and achievements, p
 # Project Goals
 The primary goal of this project is to create a clean, intuitive, and informative website that highlights my experience, skills, and accomplishments.
 
-The lesser goal of this project is to fasten my knowledge in React, Next.js and such Technologies.
+The lesser goal of this project is to fasten my knowledge in React, Next.js and similar Technologies.
 
 # Project Structure
 This repository contains the source code for the website, including a personal dictionary, a global css, all my React-pages, React-components and of course the Next.js files.
@@ -13,18 +13,44 @@ This repository contains the source code for the website, including a personal d
 web-ncb/
 │
 ├── public/
-│   ├── ba.jpg
-│   ├── bu.jpg
-│   ├── da.jpg
-│   ├── dm.jpg
-│   ├── fm.jpg
-│   ├── gp.jpg
-│   ├── ic.jpg
-│   ├── me.jpg
-│   ├── mm.jpg
-│   ├── files.svg
-│   ├── vercel.svg
+│   ├── docs/
+│   │   ├── word/
+│   │   │   ├── IMS_CL-eig. Website_def.docx
+│   │   │   ├── IMS_Project-Abstract_Vorlage_D.dotx
+│   │   │   ├── IMS_Project-Abstract_Vorlage_E.dotx
+│   │   │   ├── Project Abstract IntroductionWebsite.docx
+│   │   │   └── Project Abstract VorstellungsWebsite.docx
+│   │   ├── FS24.jpg
+│   │   ├── FS25.jpg
+│   │   ├── HS23.jpg
+│   │   ├── HS24.jpg
+│   │   ├── Project Abstract IntroductionWebsite.pdf
+│   │   ├── Project Abstract VorstellungsWebsite.pdf
+│   │   ├── Zeugnis-1.pdf
+│   │   └── Zeugnis-2.pdf
+│   ├── hob/
+│   │   ├── ba.jpg
+│   │   ├── bu.jpg
+│   │   ├── bw.jpg
+│   │   ├── da.jpg
+│   │   ├── dn.jpg
+│   │   ├── gm.jpg
+│   │   ├── ic.jpg
+│   │   └── mu.jpg
+│   ├── icons/
+│   │   ├── v1.png
+│   │   ├── v1.svg
+│   │   └── v3.png
+│   ├── adam.jpg
+│   ├── bravo.jpg
+│   ├── charlie.jpg
+│   ├── delta.jpg
+│   ├── edward.jpg
+│   ├── file.svg
+│   ├── frank.jpg
+│   ├── globe.svg
 │   ├── next.svg
+│   ├── vercel.svg
 │   └── window.svg
 │
 └── src/
@@ -32,32 +58,50 @@ web-ncb/
     │   ├── de.js
     │   ├── en.js
     │   ├── fr.js
+    │   └── LanguageContext.js
     │
     ├── app/
     │   ├── styles/
     │   │   ├── futura/
-    │   │   │   ├── futura.otf
+    │   │   │   └── FuturaPTBook.otf
+    │   │   ├── lake/
+    │   │   │   └── EagleLake-Regular.ttf
     │   │   ├── lobster/
-    │   │   │   ├── lobster.ttf
+    │   │   │   └── Lobster-Regular.ttf
     │   │   └── global.css
     │   ├── tabs/
-    │   │   ├── Certificates/
-    │   │   │   └── page.js
     │   │   ├── Contact/
-    │   │   │   └── page.js
+    │   │   │   └── page.jsx
     │   │   ├── CV/
-    │   │   │   └── page.js
+    │   │   │   └── page.jsx
     │   │   ├── Home/
-    │   │   │   └── page.js
-    │   │   └── Private/
-    │   │       └── page.js
+    │   │   │   └── page.jsx
+    │   │   ├── Projects/
+    │   │   │   └── page.jsx
+    │   │   └── Vault/
+    │   │       └── page.jsx
     │   ├── favicon.ico
     │   ├── layout.js
     │   └── page.js
+    │
     ├── components/
-        ├── Bav.js
-        ├── LanguageSwitcher.js
-        └── Nav.js
+    │   ├── Auth.js
+    │   ├── Bav.js
+    │   ├── Go.js
+    │   ├── LanguageSwitcher.js
+    │   ├── Nav.js
+    │   ├── Note.js
+    │   └── NoteBlat.js
+    │
+    ├── .env
+    ├── .gitignore
+    ├── eslint.config.mjs
+    ├── jsconfig.json
+    ├── next.config.mjs
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.mjs
+    └── README.md
 ```
 
 # Features
