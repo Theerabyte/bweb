@@ -19,6 +19,3 @@ export const LanguageProvider = ({ children }) => {
 };
 
 export const useLanguage = () => useContext(LanguageContext);
-
-
-// https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=3&atb=v448-1

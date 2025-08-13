@@ -37,7 +37,7 @@ const LanguageSwitcher = () => {
               setIsExpanded(false);
             }}
           >
-            <GB title="Great Britain" className="flag" />
+            <GB title="English" className="flag" />
           </a>
           <a className='langA'
             onClick={() => {
@@ -45,7 +45,7 @@ const LanguageSwitcher = () => {
               setIsExpanded(false);
             }}
           >
-            <FR title="France" className="flag" />
+            <FR title="Français" className="flag" />
           </a>
           <a className='langA'
             onClick={() => {
@@ -53,7 +53,7 @@ const LanguageSwitcher = () => {
               setIsExpanded(false);
             }}
           >
-            <DE title="Germany" className="flag" />
+            <DE title="Deutsch" className="flag" />
           </a>
         </div>
       )}
