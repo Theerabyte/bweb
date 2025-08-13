@@ -35,7 +35,9 @@ export const fr = {
   cvGeorge1: "Lire des romans",
   cvGeorge2: "Allemand et anglais",
   cvGeorge3: "Passionné par l'exploration de la littérature de science-fiction et de non-fiction",
-  //Certificates
+  cvHarley2: "Pfadi Patria, Berne",
+  cvHarley3: " (?!) ",
+//Certificates
   certText: "Ici vous trouverez tous les certificats que j’ai obtenus au cours des 16 dernières années:",
   crName: "Nom",
   crDesc: "Description",

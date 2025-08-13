@@ -32,10 +32,16 @@ function page() {
             <p>{t.cvAdam3}</p>
           </VerticalTimelineElement>
 
-          <VerticalTimelineElement className="vertical-timeline-element--work" date="2014 - 2023" iconStyle={{ background: 'rgb(33, 130, 100)', color: '#fff' }} icon={<School />}>
-            <h3 className="vertical-timeline-element-title" style={{color: 'rgb(33, 130, 100)'}}>{t.cvBravo1}</h3>
+          <VerticalTimelineElement className="vertical-timeline-element--work" date="2014 - 2023" iconStyle={{ background: 'rgb(20, 99, 83)', color: '#fff' }} icon={<School />}>
+            <h3 className="vertical-timeline-element-title" style={{color: 'rgb(20, 99, 83)'}}>{t.cvBravo1}</h3>
             <h4 className="vertical-timeline-element-subtitle">{t.cvBravo2}</h4>
             <p>{t.cvBravo3}</p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement className="vertical-timeline-element--work" date="2025 - ?" iconStyle={{ background: 'rgb(33, 130, 100)', color: '#fff' }} icon={<Users />}>
+            <h3 className="vertical-timeline-element-title" style={{color: 'rgb(33, 130, 100)'}}>{t.cvCharlie1}</h3>
+            <h4 className="vertical-timeline-element-subtitle">{t.cvHarley2}</h4>
+            <p>{t.cvHarley3}</p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement className="vertical-timeline-element--work" date="2013 - 2023" iconStyle={{ background: 'rgb(55, 158, 126)', color: '#fff' }} icon={<Users />}>
@@ -50,7 +56,7 @@ function page() {
             <p>{t.cvDelta3}</p>
           </VerticalTimelineElement>
 
-          <VerticalTimelineElement className="vertical-timeline-element--education" date="2022 - Present" iconStyle={{ background: 'rgb(129, 205, 119)', color: '#fff' }} icon={<Origami />}>
+          <VerticalTimelineElement className="vertical-timeline-element--education" date="2022 - ?" iconStyle={{ background: 'rgb(129, 205, 119)', color: '#fff' }} icon={<Origami />}>
             <h3 className="vertical-timeline-element-title" style={{color: 'rgb(129, 205, 119)'}}>{t.cvEdward1}</h3>
             <h4 className="vertical-timeline-element-subtitle">EC Münchenbuchsee</h4>
             <p>{t.cvFrank1}</p>
@@ -62,7 +68,7 @@ function page() {
             <p>{t.cvEdward3}</p>
           </VerticalTimelineElement>
 
-          <VerticalTimelineElement className="vertical-timeline-element--education" date="2015 - Present" iconStyle={{ background: 'rgb(246, 229, 72)', color: '#fff' }} icon={<BookMarked />}>
+          <VerticalTimelineElement className="vertical-timeline-element--education" date="2015 - ?" iconStyle={{ background: 'rgb(246, 229, 72)', color: '#fff' }} icon={<BookMarked />}>
             <h3 className="vertical-timeline-element-title" style={{color: 'rgb(246, 229, 72)'}}>{t.cvGeorge1}</h3>
             <h4 className="vertical-timeline-element-subtitle">{t.cvGeorge2}</h4>
             <p>{t.cvGeorge3}</p>

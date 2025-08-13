@@ -18,7 +18,7 @@ function page() {
       <h2>{t.moin}</h2>
       <h4>{t.projText}</h4>
       <br />
-        
+      <p>ganz lustig pro projekt es abstract no zum abelade</p>
     </div>
   )
 }

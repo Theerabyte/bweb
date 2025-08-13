@@ -35,7 +35,9 @@ export const de = {
   cvGeorge1: "Romane lesen",
   cvGeorge2: "Deutsch und Englisch",
   cvGeorge3: "Ich bin sehr leidenschaftliche für Science-Fiction- und Sachliteratur",
-//Zertifikate
+  cvHarley2: "Pfadi Patria, Bern",
+  cvHarley3: "Ich bin seit Sommer 2025 als Leitende in der Pfadistufe aktiv.",
+// Zertifikate
   certText: "Hier ist eine Tabelle mit allen Zertifikaten, die ich in den letzten 16 Jahren erworben habe:",
   crName: "Name",
   crDesc: "Beschreibung",
@@ -52,27 +54,27 @@ export const de = {
   crN5: "WSC",
   crD5: "Wasser Sicherheits Check",
   crD6: "1. Stufe Eiskunstlaufen",
-//Projects
+// Projects
   projText: "Auf dieser Seite können Sie mit all meinen Projekten interagieren",
 
-//Contact
+// Contact
   contText: "Falls Sie noch Fragen zum Inhalt meiner Webseite haben oder mich sonst kontaktieren wollen,",
   contSp1: "können Sie das",
   contSp2: "hier",
   contSp3: " tun!",
-//Menu
+// Menu
   home: "Meine Welt",
   cv: "Lebenslauf",
   proj: "Projekte",
   priv: "Fähigkeitentresor",
   cont: "Kontakt",
-//Home
+// Home
   hoMe: "Über mich:",
   hoTextMe: "Mein Name ist Naomi, ich bin 17 Jahre alt, bin im Januar 2008 geboren und mein Myers-Briggs-Typ ist ENFP. Ich erlerne Informatik an der IMS Bern mit Berufsmatur in Wirtschaft und EFZ in Applikationsentwicklung.\n In meiner Freizeit gehe ich Schlittschuhlaufen und mache andere Sachen, mehr dazu erfahrt ihr im Eintrag rechts. \n\n Meine Geschwister haben mich mein ganzes Leben lang begleitet, und sie sind der Grund, warum ich Menschen grundsätzlich mag. Ich bin stolz darauf, dass meine Geschwister und ich eine wunderbare Beziehung haben.\n Wir streiten uns zum Beispiel fast nie und haben einen aktiven Austausch, obwohl wir nicht mehr im selben Haus wohnen. Dank meines Vaters und einer meiner Brüder mag ich Informatik sehr und dank meiner Ausbildung kann ich mein Wissen und die Anwendung dieses Wissens täglich verbessern. \n\n Ich weiß noch nicht, wie meine Zukunft aussehen wird, aber ein Ziel von mir ist es, dem Militär beizutreten, sei es in der Flugfeldsoldatenabteilung oder in der ABC-Abwehr. Ein weiteres Ziel, das ich mir im Leben gerne wünsche, ist eine Reise durch verschiedene Länder, aber da bin ich noch nicht ganz so ehrgeizig. \n",
   hoHo: "Hobbies und Interessen",
   hoTextHo: "In den Herbst-, Winter- und Frühlingsferien und an Wochenenden mache ich mit Vorliebe nachfolgende Hobbies: ",
   hoTextIn: "In den Sommerferien widme ich mich normalerweise folgenden vier Aktivitäten: Spielen, Schlafen, Schwimmen und Zeit mit meinem Kätzchen verbringen. Obwohl ich jede dieser Aktivitäten das ganze Jahr über geniesse.",
-  
+
   adam: "Ich am arbeiten",
   bravo: "SwitzerLAN",
   charlie: "Meine Familie",
@@ -96,7 +98,7 @@ export const de = {
   bwd: "Ich schoss mit 8 meine ersten Pfeil und habe neulich sogar meinen eigenen Bogen gefertigt",
   mu: "Musik hören",
   mud: "Musik spielt eine riesen Rolle in meinem Leben, ich höre sie zu fast jeder Tageszeit",
-//Private
+// Private
   prText: "Hier zeige ich Ihnen alle meine schulischen Leistungen",
   prNa: "Benutzername:",
   prPa: "Passwort:",

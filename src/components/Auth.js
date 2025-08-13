@@ -1,49 +1,56 @@
 'use client'
 
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { useLanguage } from '@/[language]/LanguageContext';
-
-import { en } from '@/[language]/en';
-import { de } from '@/[language]/de';
-import { fr } from '@/[language]/fr';
-
-const translationsMap = { en, de, fr };
 
 const users = [
   { username: 'admin', password: 'sml1234' },
   { username: 'zkb', password: 'ZKB@passwort98' },
 ];
 
-function Auth() {
-  const { language, changeLanguage } = useLanguage();
-  const t = translationsMap[language];
+function Auth({ onLoginSuccess }) {
+  const { language } = useLanguage();
+  const t = { en: { login: 'Login', username: 'Username', password: 'Password', error: 'Invalid Username or Password.' }, de: { login: 'Anmelden', username: 'Benutzername', password: 'Passwort', error: 'Ungültiger Benutzername oder Passwort.' }, fr: { login: 'Connexion', username: 'Nom d\'utilisateur', password: 'Mot de passe', error: 'Nom d\'utilisateur ou mot de passe invalide.' } }[language];
 
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
-  const handleLogin = () => { 
+  const handleLogin = () => {
     const user = users.find(
       (u) => u.username === username && u.password === password
     );
     if (user) {
-      setIsAuthenticated(true);
       setError('');
+      onLoginSuccess();
     } else {
-    setError(! + 'Invalid Username or Password.');
+      setError(t.error);
     }
   };
 
-  const handleLogout = () => {
-    setIsAuthenticated(false);
-    setUsername('');
-    setPassword('');
-    setError('');
-  };
-
   return (
-    <div className="column">
+    <div style={{ border: '1px solid #ccc', padding: 20, maxWidth: 300 }}>
+      <h3>{t.login}</h3>
+      <div>
+        <label>{t.username}:</label>
+        <input
+          type="text"
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+        />
+      </div>
+      <div>
+        <label>{t.password}:</label>
+        <input
+          type="password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
+      </div>
+      {error && <div style={{ color: 'red', marginTop: 10 }}>{error}</div>}
+      <button onClick={handleLogin} style={{ marginTop: 10 }}>
+        {t.login}
+      </button>
     </div>
   );
 }

@@ -60,6 +60,8 @@ export const en = {
   cvGeorge1: "Reading Novels",
   cvGeorge2: "English and German",
   cvGeorge3: "Passionate about exploring science fiction and non fiction literature",
+  cvHarley2: "Pfadi Patria, Bern",
+  cvHarley3: "In the summer of 2025 I became a Groupleader. (?!)",
 //Menu
   home: "My World",
   cv: "Resume",

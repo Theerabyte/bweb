@@ -18,7 +18,7 @@ function Go() {
     <>
       <div className="welcCont">
         <div className="goCont">
-          <Image className="go" src="/icons/v1.png" alt={t.logo} width={650} height={600} />
+          <Image className="go" src="/icons/v1.svg" alt={t.logo} width={650} height={600} />
           <h1 id='welc'>{t.welc}</h1>
         </div>
       </div>
