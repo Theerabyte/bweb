@@ -24,10 +24,16 @@ function page() {
     setIsAuthenticated(false)
   }
 
-  const gradesheetURL = 'https://www.family.baechler.name/';
-  const vocDocsURLs = [
-    'https://www.family.baechler.name/',
-    'https://www.family.baechler.name/',
+  const gradesheetURL = [
+    { src: "/docs/Zeugnis-1.jpg", alt: t.z1, desc: t.z1 },
+    { src: "/docs/Zeugnis-2.jpg", alt: t.z2, desc: t.z2
+     }
+  ];
+  const vocDocsURL = [
+    { src: "/docs/HS23.jpg", alt: t.hs23, desc: t.hs23 },
+    { src: "/docs/FS24.jpg", alt: t.fs24, desc: t.fs24 },
+    { src: "/docs/HS24.jpg", alt: t.hs24, desc: t.hs24 },
+    { src: "/docs/FS25.jpg", alt: t.fs25, desc: t.fs25 }
   ];
 
   return (
@@ -36,14 +42,14 @@ function page() {
         <Auth onLoginSuccess={handleLoginSuccess} />
       ) : (
         <div>
-          <button onClick={handleLogout}>{t.prLoU}</button>
           <div>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
               <h2>{t.moin}</h2>
               <h4>{t.prText}</h4>
+              <button onClick={handleLogout}>{t.prLoU}</button>
             </div>
             <section style={{ marginTop: '20px' }}>
-              <table>
+              {/* <table>
                 <thead>
                   <tr>
                     <th>{t.prFa}</th>
@@ -138,17 +144,23 @@ function page() {
                     <td>-</td>
                   </tr>
                 </tbody>
-              </table>
+              </table> */}
               <h3>{t.prPFT}</h3>
-              <a href={gradesheetURL} target="_blank" rel="noopener noreferrer">
-                {t.prDow}
-              </a>
+              <ul>
+                {gradesheetURL.map((item, index) => (
+                  <li key={index}>
+                    <a href={item.src} target="_blank" rel="noopener noreferrer">
+                      {t.prDow} {index + 1}
+                    </a>
+                  </li>
+                ))}
+              </ul>
 
               <h3>{t.prVC}</h3>
               <ul>
-                {vocDocsURLs.map((url, index) => (
+                {vocDocsURL.map((item, index) => (
                   <li key={index}>
-                    <a href={url} target="_blank" rel="noopener noreferrer">
+                    <a href={item.src} target="_blank" rel="noopener noreferrer">
                       {t.prVCD} {index + 1}
                     </a>
                   </li>

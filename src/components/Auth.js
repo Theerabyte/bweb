@@ -4,8 +4,8 @@ import React, { useState } from 'react'
 import { useLanguage } from '@/[language]/LanguageContext';
 
 const users = [
-  { username: 'admin', password: 'sml1234' },
-  { username: 'zkb', password: 'ZKB@passwort98' },
+  { username: process.env.REACT_APP_USER1_USERNAME, password: process.env.REACT_APP_USER1_PASSWORD },
+  { username: process.env.REACT_APP_USER2_USERNAME, password: process.env.REACT_APP_USER2_PASSWORD },
 ];
 
 function Auth({ onLoginSuccess }) {
