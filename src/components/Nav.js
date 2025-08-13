@@ -56,11 +56,11 @@ function Nav() {
       </div>
       <button id="menuButton" className="menu-button" onClick={handleMenuToggle} style={{ marginLeft: "2%" }}><Menu className='icon' /></button>
       <div className={`${open ? "show" : "menu"}`} ref={menuRef}>
-        <a onClick={() => handleNavigation('/tabs/Home')}>{t.home}</a>
-        <a onClick={() => handleNavigation('/tabs/CV')}>{t.cv}</a>
-        <a onClick={() => handleNavigation('/tabs/Projects')}>{t.proj}</a>
-        <a onClick={() => handleNavigation('/tabs/Vault')}>{t.priv}</a>
-        <a onClick={() => handleNavigation('/tabs/Contact')}>{t.cont}</a>
+        <a onClick={() => handleNavigation('/Home')}>{t.home}</a>
+        <a onClick={() => handleNavigation('/CV')}>{t.cv}</a>
+        <a onClick={() => handleNavigation('/Projects')}>{t.proj}</a>
+        <a onClick={() => handleNavigation('/Vault')}>{t.priv}</a>
+        <a onClick={() => handleNavigation('/Contact')}>{t.cont}</a>
         <LanguageSwitcher />
       </div>
     </nav>
