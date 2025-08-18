@@ -14,7 +14,7 @@ function Noten({ src, alt, title, isPDF, preview }) {
         {preview ? (
           <img src={preview} alt={alt} style={{ width: '100%', height: 'auto', maxHeight: '200px', objectFit: 'contain' }} />
         ) : (
-          <span>Preview Not Available</span>
+          <span>Error 404</span>
         )}
       </div>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px' }}>

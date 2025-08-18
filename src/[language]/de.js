@@ -56,7 +56,9 @@ export const de = {
   crD5: "Wasser Sicherheits Check",
 // Projects
   projText: "Auf dieser Seite können Sie mit all meinen Projekten interagieren",
-
+  lar: "Ein C# spiel namens LARRY",
+  bew: "Diese Website in einem .pdf",
+  vow: "Meine erste Website",
 // Contact
   contText: "Falls Sie noch Fragen zum Inhalt meiner Webseite haben oder mich sonst kontaktieren wollen,",
   contSp1: "können Sie das",

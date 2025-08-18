@@ -33,7 +33,14 @@ export const en = {
   crD5: "Water saftey check",
 //Projects
   projText: "On this page you can interact with all my projects",
-
+  lar: "A C# game called LARRY",
+  bew: "This Website in a .pdf",
+  vow: "My First Website",
+  mr: "",
+  of: "",
+  mew: "",
+  lr: "",
+  
 //Contact
   contText: "If you have any questions regarding contents of my website or if you want to contact me,",
   contSp1: "you can do so",
@@ -100,8 +107,8 @@ export const en = {
   mud: "Music plays a huge role in my life; I listen to it at almost any time of the day",
 //Private
   prText: "Here I display all my shool related achievments.",
-  prNa: "Username:",
-  prPa: "Password:",
+  prNa: "Username",
+  prPa: "Password",
   prLoI: "Login",
   prLoU: "Logout",
   prPFT: "Gradesheets",
@@ -121,5 +128,4 @@ export const en = {
 
   hs: "Fallsemester ",
   fs: "Springsemester ",
-
 };
