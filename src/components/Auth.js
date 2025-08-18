@@ -3,27 +3,34 @@
 import React, { useState } from 'react'
 import { useLanguage } from '@/[language]/LanguageContext';
 
-const users = [
-  { username: process.env.REACT_APP_USER1_USERNAME, password: process.env.REACT_APP_USER1_PASSWORD },
-  { username: process.env.REACT_APP_USER2_USERNAME, password: process.env.REACT_APP_USER2_PASSWORD },
-];
+import { en } from '@/[language]/en';
+import { de } from '@/[language]/de';
+import { fr } from '@/[language]/fr';
+
+const translationsMap = { en, de, fr };
 
 function Auth({ onLoginSuccess }) {
-  const { language } = useLanguage();
-  const t = {
-    en: { login: "Login", username: "Username", password: "Password", error: "Invalid Username or Password." },
-    de: { login: "Anmelden", username: "Benutzername", password: "Passwort", error: "Ungültiger Benutzername oder Passwort." },
-    fr: { login: "Connexion", username: "Nom d'utilisateur", password: "Mot de passe", error: "Nom d'utilisateur ou mot de passe invalide." }
-  }[language];
+  const { language, changeLanguage } = useLanguage();
+  const t = translationsMap[language];
+
+  const users = [
+    { username: 'admin', password: 'admin123' },
+    { username: 'guest', password: 'guest123' }
+  ];
 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
   const handleLogin = () => {
+    console.log("users", process.env.NEXT_PUBLIC_REACT_APP_USER1_USERNAME, process.env.NEXT_PUBLIC_REACT_APP_USER1_PASSWORD)
     const user = users.find(
-      (u) => u.username === username && u.password === password
+      (u) => {
+        console.log("user", u, username, password);
+        return u.username === username && u.password === password;
+      }
     );
+
     if (user) {
       setError('');
       onLoginSuccess();
@@ -34,9 +41,9 @@ function Auth({ onLoginSuccess }) {
 
   return (
     <div style={{ border: '1px solid #ccc', padding: 20, maxWidth: 300 }}>
-      <h3>{t.login}</h3>
+      <h3>{t.prLoI}</h3>
       <div>
-        <label>{t.username}:</label>
+        <label>{t.prNa}:</label>
         <input
           type="text"
           value={username}
@@ -44,7 +51,7 @@ function Auth({ onLoginSuccess }) {
         />
       </div>
       <div>
-        <label>{t.password}:</label>
+        <label>{t.prPa}:</label>
         <input
           type="password"
           value={password}
@@ -53,7 +60,7 @@ function Auth({ onLoginSuccess }) {
       </div>
       {error && <div style={{ color: 'red', marginTop: 10 }}>{error}</div>}
       <button onClick={handleLogin} style={{ marginTop: 10 }}>
-        {t.login}
+        {t.prLoI}
       </button>
     </div>
   );
