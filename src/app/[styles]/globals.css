@@ -89,17 +89,6 @@ nav .logo {
     position: relative;
 }
 
-.goCont {
-    position: relative;
-    display: inline-block;
-}
-
-.go {
-    display: block;
-    max-width: 650px;
-    height: auto;
-}
-
 #welc {
     position: absolute;
     top: 50%;
@@ -109,6 +98,17 @@ nav .logo {
     padding-bottom: 15rem;
     white-space: nowrap;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.goCont {
+    position: relative;
+    display: inline-block;
+}
+
+.go {
+    display: block;
+    max-width: 650px;
+    height: auto;
 }
 
 .menu-button {
@@ -139,7 +139,7 @@ nav .logo {
 
 /* --- HEADINGS --- */
 h1 {
-    font-family: Lake;
+    font-family: Lobster;
     color: whitesmoke;
     text-align: center;
     font-size: 70px;
@@ -152,6 +152,7 @@ h2 {
 }
 
 h3 {
+    font-family: Futura;
     color: #0c3c4e;
     text-align: left;
 }
