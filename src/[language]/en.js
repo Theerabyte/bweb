@@ -34,13 +34,13 @@ export const en = {
 //Projects
   projText: "On this page you can interact with all my projects",
   lar: "A C# game called LARRY",
-  bew: "This Website in a .pdf",
-  vow: "My First Website",
-  mr: "",
-  of: "",
-  mew: "",
-  lr: "",
-  
+  bew: "This Website, in React and Next.js",
+  vow: "My first Website in simple HTML & CSS",
+  mr: "A Marsrover-roboter python project",
+  of: "A Website for Orellfüssli in .NET Maui",
+  mew: "A Website focusing on UX/UI-criteria, in HTML & CSS",
+  lr: "My first ever project, Llama Race",
+
 //Contact
   contText: "If you have any questions regarding contents of my website or if you want to contact me,",
   contSp1: "you can do so",
@@ -68,7 +68,7 @@ export const en = {
   cvGeorge2: "English and German",
   cvGeorge3: "Passionate about exploring fantasy and non-fiction literature",
   cvHarley2: "Pfadi Patria, Bern",
-  cvHarley3: "In the summer of 2025 I became a Groupleader ...",
+  cvHarley3: "In the summer of 2025 I became a Groupleader in the Scout-division Turmalin.",
 //Menu
   home: "My World",
   cv: "Resume",

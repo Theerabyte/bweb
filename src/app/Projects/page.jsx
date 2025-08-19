@@ -51,14 +51,24 @@ function page() {
         </div>
         <div style={{ padding: '20px' }}>
           <h1 style={{ fontSize: '24px', marginBottom: '20px' }}>Skills</h1>
-          <SkillProgress name="JavaScript" level={65} />
-          <SkillProgress name="React" level={75} />
+          <SkillProgress name="HTML" level={75} />
           <SkillProgress name="CSS" level={75} />
           <SkillProgress name="SQL" level={70} />
-          <SkillProgress name="Java" level={75} />
-          <SkillProgress name="C#" level={75} />
-          <SkillProgress name="HTML" level={70} />
+          <SkillProgress name="C#" level={65} />
+          <SkillProgress name="Java" level={65} />
+          <SkillProgress name="JavaScript" level={55} />
+          <SkillProgress name="React" level={50} />
+          <SkillProgress name="MySQL" level={50} />
+          <SkillProgress name="Noe4j" level={45} />
+          <SkillProgress name="Raspberry Pi/ Rasperean" level={45} />
+          <SkillProgress name="mongoDB" level={40} />
+          <SkillProgress name="SQLite" level={40} />
+          <SkillProgress name=".NET Maui" level={40} />
+          <SkillProgress name="php" level={35} />
+          <SkillProgress name="python" level={25} />
+          <SkillProgress name="Haskell" level={5} />
 
+          {/* <SkillProgress name="" level={} /> */}
         </div>
       </section>
     </div>

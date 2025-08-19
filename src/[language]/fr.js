@@ -59,6 +59,11 @@ export const fr = {
   lar: "Un jeu C# du nome LARRY",
   bew: "Cette site web dans une .pdf",
   vow: "Mon premier site web",
+  mr: "A Marsrover-roboter python project",
+  of: "A Website for Orellfüssli in .NET Maui",
+  mew: "A Website focusing on UX/UI-criteria, in HTML & CSS",
+  lr: "Mon premier first ever project, Llama Race",
+
 //Contact
   contText: "Si vous avez encore des questions concernantes le contenu de mon site web ou si vous souhaitez me contacter,",
   contSp1: "vous pouvez le faire",
