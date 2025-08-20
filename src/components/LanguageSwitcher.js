@@ -23,12 +23,7 @@ const LanguageSwitcher = () => {
         {isExpanded ? <X size={28} /> : <Plus size={28} />}
       </div>
       {isExpanded && (
-        <div className='langBox'
-          style={{
-            position: 'absolute',
-            left: 0
-          }}
-        >
+        <div className='langBox'>
           <a className='langA'
             onClick={() => {
               changeLanguage('en');

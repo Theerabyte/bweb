@@ -57,18 +57,18 @@ function page() {
       ) : (
         <div>
           <div>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
-              <button onClick={handleDowAll} style={{ padding: '8px 16px' }}>{t.prDow}</button>
+            <div className="clum">
+              <button className="Dow" onClick={handleDowAll}>{t.prDow}</button>
               <div style={{ textAlign: 'center' }}>
                 <h2>{t.moin}</h2>
                 <h4>{t.prText}</h4>
               </div>
-              <button onClick={handleLogout} style={{ padding: '8px 16px' }}>{t.prLoU}</button>
+              <button className="Dow" onClick={handleLogout}>{t.prLoU}</button>
             </div>
-            <section style={{ marginTop: '20px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+            <section className="clm" style={{  }}>
               <div style={{ flex: 2 }}>
                 <h3>{t.prPFT}</h3>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '10px' }}>
+                <div className="VauNote" >
                   {noteURL.map((item, index) => (
                     <Noten
                       key={index}
@@ -82,7 +82,7 @@ function page() {
               </div>
               <div style={{ flex: 3 }}>
                 <h3>{t.prVC}</h3>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '10px' }}>
+                <div className="VauNote" >
                   {uekURL.map((item, index) => (
                     <Noten
                       key={index}
@@ -96,7 +96,7 @@ function page() {
               </div>
               <div style={{ flex: 3 }}>
                 <h3>{t.prPra}</h3>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '10px' }}>
+                <div className="VauNote" >
                   {praxisURL.map((item, index) => (
                     <Noten
                       key={index}

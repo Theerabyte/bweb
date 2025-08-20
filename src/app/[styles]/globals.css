@@ -22,6 +22,22 @@ body {
     color: #eee;
 }
 
+button {
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: #b57123;
+    border-radius: 2rem;
+    border-color: #275fb1;
+    border-width: 0.5em;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
 .embla {
     overflow: hidden;
 }
@@ -183,6 +199,13 @@ h4 {
     width: 15;
     cursor: pointer;
     padding: 5px 5px !important;
+}
+
+.langBox {
+    position: absolute;
+    left: 0;
+    margin-top: 0.25rem;
+    z-index: 50;
 }
 
 .bgc {
@@ -370,39 +393,12 @@ div.desc {
     margin-bottom: 16px !important;
 }
 
-#myfor {
-    width: 98% !important;
-}
-
-label {
-    display: flex;
-    text-align: left;
-}
-
 .input {
     padding: 8px;
     display: block;
     border: none;
     border-bottom: 1px solid #3cc1ff;
     width: 100%;
-}
-
-textarea.input {
-    height: 150px;
-    font-family: inherit;
-}
-
-button {
-    display: inline-block;
-    padding: 8px 16px;
-    vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none;
-    color: white;
-    background-color: #275fb1;
-    text-align: center;
-    cursor: pointer;
-    white-space: nowrap;
 }
 
 /* ------------------------- Page : PROJECTS ---------------- */
@@ -470,6 +466,30 @@ tr:nth-child(odd) {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     min-width: 280px;
     text-align: center;
+}
+
+.clum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.clm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.VauNote {
+    display: 'grid';
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.Dow {
+    padding: 8px 16px;
 }
 
 /* -------------------------- FONTS ----------------------------- */

@@ -44,11 +44,6 @@ function Nav() {
     router.push(path);
   };
 
-
-  const handleLangToggle = (expanded) => {
-    setIsLangExpanded(expanded);
-  };
-
   return (
     <nav style={{ transition: 'transform 0.3s ease', transform: isLangExpanded ? 'translateX(-100px)' : 'translateX(0)' }} >
       <div className='logo'>
