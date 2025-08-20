@@ -2,12 +2,24 @@
     margin: 0;
     padding: 0;
     font-family: Futura;
+    /*
+    corporate design:
+    #07036f Dunkelblau
+    #0d1d80 Blau
+    #275fb1 Hellblau
+    #8babca Graublau
+    #9cb5db Hoover Weissblau
+    #4f96ffff Hoover Weiss
+    #b57123 Headings
+    #eea Hoover heading
+    */
 }
 
 body {
     line-height: 1.6;
-    background-color: #35424a;
-    color: #333;
+    background: #275FB1;
+    background: linear-gradient(180deg, rgba(39, 95, 177, 1) 5%, rgba(156, 181, 219, 1) 95%);
+    color: #eee;
 }
 
 .embla {
@@ -26,39 +38,27 @@ body {
 nav {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     text-align: right;
-    background: #087282;
+    background: #275fb1;
     padding: 10px 0;
+    padding-right: 20px;
 }
 
-nav a,
-nav button {
-    color: black;
+nav a {
+    color: #07036F;
+    font-weight: bolder;
+    font-size: x-large;
     text-decoration: none;
     padding: 15px 20px;
+    border-radius: 2rem;
     transition: background 0.3s;
     cursor: pointer;
 }
 
 nav a:hover {
-    background: #78caeb;
-}
-
-nav button {
-    background: #93bfe1;
-    color: black;
-    border: none;
-    padding: 5px 15px;
-    margin: 0 15px;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background 0.3s;
-    text-align: center;
-    display: inline-block;
-}
-
-nav button:hover {
-    background: #78caeb;
+    background: #C0811E;
+    border-radius: 2rem;
 }
 
 nav .logo {
@@ -98,23 +98,38 @@ nav .logo {
     padding-bottom: 15rem;
     white-space: nowrap;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+#welcCo {
+    color: white;
+    z-index: -1;
 }
 
 .goCont {
     position: relative;
     display: inline-block;
+    z-index: -1;
+}
+
+#goCo {
+    padding: 15rem 10rem;
+    background-color: #0d1d80;
+    border-radius: 5rem;
+    z-index: -1;
 }
 
 .go {
     display: block;
     max-width: 650px;
     height: auto;
+    z-index: -1;
 }
 
 .menu-button {
     background: none;
     border: none;
-    color: white;
+    color: black;
     font-size: 24px;
     cursor: pointer;
     display: none;
@@ -147,19 +162,19 @@ h1 {
 
 h2 {
     font-family: Lobster;
-    color: #060667;
+    color: #b57123;
     text-align: center;
 }
 
 h3 {
     font-family: Futura;
-    color: #0c3c4e;
+    color: #C0811E;
     text-align: left;
 }
 
 h4 {
     font-family: Futura;
-    color: #333;
+    color: #C0811E;
     text-align: center;
 }
 
@@ -174,9 +189,7 @@ h4 {
     flex: 1;
     margin: 10px;
     padding: 20px;
-    background: #3bc9db;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     min-width: 280px;
 }
 
@@ -190,13 +203,15 @@ h4 {
     width: 100%;
     height: auto;
     padding: 20px;
-    background-color: #35424a;
+    background: #275FB1;
+    background: linear-gradient(180deg, rgba(39, 95, 177, 1) 5%, rgba(156, 181, 219, 1) 95%);
 }
 
 .modal-content {
-    color: #333;
+    color: #9cb5db;
     font-family: Futura;
-    background-color: #087282;
+    background: #07036F;
+    background: linear-gradient(180deg, rgba(7, 3, 111, 1) 5%, rgba(39, 95, 177, 1) 95%);
     margin: 15% auto;
     padding: 20px;
     border-radius: 8px;
@@ -222,7 +237,7 @@ h4 {
 
 footer.y {
     text-align: center;
-    background: #99e9f2;
+    background: #9cb5db;
     color: rgb(75, 74, 107);
     padding: 12px 0;
     position: relative;
@@ -232,7 +247,7 @@ footer.y {
 
 footer {
     text-align: center;
-    background: #99e9f2;
+    background: #9cb5db;
     color: rgb(75, 74, 107);
     padding: 12px 0;
     position: fixed;
@@ -254,7 +269,7 @@ footer {
     flex: 1;
     margin: 10px;
     padding: 20px;
-    background: #3bc9db;
+    background: #0d1d80;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     min-width: 280px;
@@ -270,7 +285,7 @@ footer {
 /* Picture Gallery*/
 div.gallery {
     border-style: solid;
-    border-color: #3e3d3d;
+    border-color: #8babca;
     border-bottom-right-radius: 12.5%;
     border-bottom-left-radius: 12.5%;
     border-width: .25em;
@@ -278,7 +293,7 @@ div.gallery {
 
 div.gallery:hover {
     border-style: solid;
-    border-color: #545454;
+    border-color: #9cb5db;
     border-bottom-right-radius: 12.5%;
     border-bottom-left-radius: 12.5%;
     border-width: .25em;
@@ -315,7 +330,7 @@ div.desc {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: #3bc9db;
+    background: #0d1d80;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     min-width: 280px;
@@ -326,7 +341,7 @@ div.desc {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: #3bc9db;
+    background: #0d1d80;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -384,7 +399,7 @@ button {
     overflow: hidden;
     text-decoration: none;
     color: white;
-    background-color: #087282;
+    background-color: #275fb1;
     text-align: center;
     cursor: pointer;
     white-space: nowrap;
@@ -395,10 +410,24 @@ button {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: #3bc9db;
+    background: #0d1d80;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+
+.proFo {
+    background: #ff7b00;
+    background: linear-gradient(180deg, rgba(255, 123, 0, 1) 25%, rgba(2, 8, 194, 1) 75%);
+}
+
+
+.proFi {
+    background-color: #2658a8ff;
+    border-radius: 999px;
+    transition: width 0.5s ease-in-out;
+    background: #ffc800;
+    background: linear-gradient(260deg, rgba(255, 200, 0, 1) 0%, rgba(255, 131, 8, 1) 28%, rgba(2, 8, 194, 1) 75%);
 }
 
 table {
@@ -407,29 +436,27 @@ table {
 }
 
 td {
-    border: 2px solid rgb(0, 35, 102);
+    /* border: 2px solid rgb(0, 35, 102); */
     text-align: left;
     padding: 8px;
 }
 
 th {
     Font-family: Lobster;
-    border: 2px solid rgb(0, 35, 102);
+    /* border: 2px solid rgb(0, 35, 102); */
     text-align: left;
     padding: 8px;
-    background-color: #333;
-    color: #78caeb;
+    background-color: #275fb1;
 }
 
 tr:nth-child(even) {
-    background-color: #087282;
-    ;
-    color: #eee;
+    background-color: #6c94cf;
+    color: #0d1d80;
 }
 
 tr:nth-child(odd) {
-    background-color: #eee;
-    color: #060667;
+    background-color: #9cb5db;
+    color: #0d1d80;
 }
 
 /* ------------------------- Page : VAULT ------------------------- */
@@ -438,7 +465,7 @@ tr:nth-child(odd) {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: #3bc9db;
+    background: #0d1d80;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     min-width: 280px;
@@ -462,14 +489,6 @@ tr:nth-child(odd) {
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Lake';
-    src: url('./lake/EagleLake-Regular.ttf') format('truetype');
-
-    font-weight: 400;
-    font-style: normal;
-}
-
 
 /* -------------------------- Querys ---------------------------- */
 /* Query for Menu animation */
@@ -478,7 +497,7 @@ tr:nth-child(odd) {
         flex-direction: column;
     }
 
-    #navbarLogo {
+    nav .logo {
         display: none;
     }
 
@@ -492,7 +511,7 @@ tr:nth-child(odd) {
         display: none;
         flex-direction: column;
         width: 100%;
-        background: #087282;
+        background: #275fb1;
         padding: 10px 0;
     }
 

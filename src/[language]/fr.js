@@ -61,7 +61,7 @@ export const fr = {
   vow: "Mon premier site web",
   mr: "A Marsrover-roboter python project",
   of: "A Website for Orellfüssli in .NET Maui",
-  mew: "A Website focusing on UX/UI-criteria, in HTML & CSS",
+  mew: "Un site web focusing on UX/UI-criteria, in HTML & CSS",
   lr: "Mon premier first ever project, Llama Race",
 
 //Contact

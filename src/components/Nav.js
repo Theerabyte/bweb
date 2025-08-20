@@ -2,7 +2,7 @@
 
 import { useRef, useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { Menu } from 'lucide-react';
+import { Earth, FileUser, FolderGit2, Menu, Lock, Phone } from 'lucide-react';
 import { useLanguage } from '@/[language]/LanguageContext';
 
 import LanguageSwitcher from '@/components/LanguageSwitcher';
@@ -56,11 +56,11 @@ function Nav() {
       </div>
       <button id="menuButton" className="menu-button" onClick={handleMenuToggle} style={{ marginLeft: "2%" }}><Menu className='icon' /></button>
       <div className={`${open ? "show" : "menu"}`} ref={menuRef}>
-        <a onClick={() => handleNavigation('/Home')}>{t.home}</a>
-        <a onClick={() => handleNavigation('/CV')}>{t.cv}</a>
-        <a onClick={() => handleNavigation('/Projects')}>{t.proj}</a>
-        <a onClick={() => handleNavigation('/Vault')}>{t.priv}</a>
-        <a onClick={() => handleNavigation('/Contact')}>{t.cont}</a>
+        <a onClick={() => handleNavigation('/Home')}><Earth /> {t.home}</a>
+        <a onClick={() => handleNavigation('/CV')}><FileUser /> {t.cv}</a>
+        <a onClick={() => handleNavigation('/Projects')}><FolderGit2 /> {t.proj}</a>
+        <a onClick={() => handleNavigation('/Vault')}><Lock /> {t.priv}</a>
+        <a onClick={() => handleNavigation('/Contact')}><Phone /> {t.cont}</a>
         <LanguageSwitcher />
       </div>
     </nav>

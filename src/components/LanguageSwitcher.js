@@ -16,19 +16,17 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <div style={{ position: 'relative', display: 'inline-block' }}>
-      <div style={{ cursor: 'pointer', fontSize: '24px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+    <div style={{ position: 'relative', display: 'inline-block', margin: 'auto' }}>
+      <div style={{ cursor: 'pointer', fontSize: '24px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#07036f !important' }}
         onClick={toggleExpand}
       >
-        {isExpanded ? <X size={24} /> : <Plus size={24} />}
+        {isExpanded ? <X size={28} /> : <Plus size={28} />}
       </div>
       {isExpanded && (
         <div className='langBox'
           style={{
             position: 'absolute',
-            left: 0,
-            border: '1px solid #ccc',
-            boxShadow: '0 2px 8px rgba(0,0,0,0.2)',
+            left: 0
           }}
         >
           <a className='langA'

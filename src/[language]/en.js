@@ -1,6 +1,7 @@
 export const en = {
   moin: "Hello",
   welc: "Welcome to my online portfolio!",
+  wel: "Let us get to know me",
   logo: "My Logo",
   error: "Invalid Username or Password.",
 // Impressum

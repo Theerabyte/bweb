@@ -17,9 +17,9 @@ function Go() {
   return (
     <>
       <div className="welcCont">
-        <div className="goCont">
-          <Image className="go" src="/icons/v1.svg" alt={t.logo} width={650} height={600} />
-          <h1 id='welc'>{t.welc}</h1>
+        <div className="goCont" id='goCo'>
+          <h1 id='welcCo'>{t.welc}</h1>
+          <h2>{t.wel}</h2>
         </div>
       </div>
     </>
