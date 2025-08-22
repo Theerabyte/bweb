@@ -26,7 +26,7 @@ function page() {
     { src: "/docs/Project Abstract meWeb.pdf", desc: t.mew, preview: "/docs/oo.png" },
     { src: "/docs/Project Abstract llama reace.pdf", desc: t.lr, preview: "/docs/oo.png" },
 
-    { src: "/docs/Project Abstract .pdf", desc: t.a, preview: "/docs/oo.png" },
+    { src: "/docs/Project Abstract notora.pdf", desc: t.no, preview: "/docs/oo.png" },
     { src: "/docs/Project Abstract .pdf", desc: t.a, preview: "/docs/oo.png" }
   ];
 
@@ -66,7 +66,7 @@ function page() {
           <SkillProgress name=".NET Maui" level={40} />
           <SkillProgress name="php" level={35} />
           <SkillProgress name="python" level={25} />
-          <SkillProgress name="Haskell" level={5} />
+          <SkillProgress name="Haskell" level={10} />
 
           {/* <SkillProgress name="" level={} /> */}
         </div>

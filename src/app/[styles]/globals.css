@@ -61,7 +61,7 @@ nav {
     padding-right: 20px;
 }
 
-nav a {
+.nava {
     color: #07036F;
     font-weight: bolder;
     font-size: x-large;
@@ -72,9 +72,21 @@ nav a {
     cursor: pointer;
 }
 
-nav a:hover {
+.nava:hover {
     background: #C0811E;
     border-radius: 2rem;
+}
+
+.active-link {
+    background-color: #b57123;
+    color: #07036F;
+    font-weight: bolder;
+    font-size: x-large;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 2rem;
+    transition: background 0.3s;
+    cursor: pointer;
 }
 
 nav .logo {
@@ -96,6 +108,12 @@ nav .logo {
     margin: 0 2em;
 }
 
+.ico {
+    padding-bottom: 0.5rem;
+    vertical-align: middle;
+    display: inline-block;
+}
+
 .welcCont {
     display: flex;
     justify-content: center;
@@ -103,6 +121,7 @@ nav .logo {
     height: 80vh;
     width: 100%;
     position: relative;
+    z-index: -1;
 }
 
 #welc {
@@ -385,6 +404,11 @@ div.desc {
     margin: 0;
     text-align: justify;
     line-height: 1.6;
+}
+
+.dat {
+    color: #D09A16;
+    font-weight: bold;
 }
 
 /* ------------------------- Page : CONTACT ---------------------- */

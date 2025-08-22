@@ -1,11 +1,12 @@
 'use client'
 
 import { useRef, useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
 import { Earth, FileUser, FolderGit2, Menu, Lock, Phone } from 'lucide-react';
 import { useLanguage } from '@/[language]/LanguageContext';
 
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+
 import { en } from '@/[language]/en';
 import { de } from '@/[language]/de';
 import { fr } from '@/[language]/fr';
@@ -22,6 +23,7 @@ function Nav() {
 
   const menuRef = useRef(null);
   const router = useRouter();
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleResize = () => {
@@ -44,6 +46,10 @@ function Nav() {
     router.push(path);
   };
 
+  const isActive = (path) => {
+    return pathname === path;
+  };
+
   return (
     <nav style={{ transition: 'transform 0.3s ease', transform: isLangExpanded ? 'translateX(-100px)' : 'translateX(0)' }} >
       <div className='logo'>
@@ -51,11 +57,11 @@ function Nav() {
       </div>
       <button id="menuButton" className="menu-button" onClick={handleMenuToggle} style={{ marginLeft: "2%" }}><Menu className='icon' /></button>
       <div className={`${open ? "show" : "menu"}`} ref={menuRef}>
-        <a onClick={() => handleNavigation('/Home')}><Earth /> {t.home}</a>
-        <a onClick={() => handleNavigation('/CV')}><FileUser /> {t.cv}</a>
-        <a onClick={() => handleNavigation('/Projects')}><FolderGit2 /> {t.proj}</a>
-        <a onClick={() => handleNavigation('/Vault')}><Lock /> {t.priv}</a>
-        <a onClick={() => handleNavigation('/Contact')}><Phone /> {t.cont}</a>
+        <a onClick={() => handleNavigation('/Home')} className={isActive('/Home') ? 'active-link' : 'nava'}><Earth className='ico'/> {t.home}</a>
+        <a onClick={() => handleNavigation('/CV')} className={isActive('/CV') ? 'active-link' : 'nava'}><FileUser className='ico' /> {t.cv}</a>
+        <a onClick={() => handleNavigation('/Projects')} className={isActive('/Projects') ? 'active-link' : 'nava'}><FolderGit2 className='ico' /> {t.proj}</a>
+        <a onClick={() => handleNavigation('/Vault')} className={isActive('/Vault') ? 'active-link' : 'nava'}><Lock className='ico' /> {t.priv}</a>
+        <a onClick={() => handleNavigation('/Contact')} className={isActive('/Contact') ? 'active-link' : 'nava'}><Phone className='ico' /> {t.cont}</a>
         <LanguageSwitcher />
       </div>
     </nav>

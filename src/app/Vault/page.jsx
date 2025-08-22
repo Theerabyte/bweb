@@ -65,10 +65,10 @@ function page() {
               </div>
               <button className="Dow" onClick={handleLogout}>{t.prLoU}</button>
             </div>
-            <section className="clm" style={{  }}>
+            <section className="clm">
               <div style={{ flex: 2 }}>
                 <h3>{t.prPFT}</h3>
-                <div className="VauNote" >
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '10px' }}>
                   {noteURL.map((item, index) => (
                     <Noten
                       key={index}
@@ -82,7 +82,7 @@ function page() {
               </div>
               <div style={{ flex: 3 }}>
                 <h3>{t.prVC}</h3>
-                <div className="VauNote" >
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '10px' }}>
                   {uekURL.map((item, index) => (
                     <Noten
                       key={index}
@@ -96,7 +96,7 @@ function page() {
               </div>
               <div style={{ flex: 3 }}>
                 <h3>{t.prPra}</h3>
-                <div className="VauNote" >
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '10px' }}>
                   {praxisURL.map((item, index) => (
                     <Noten
                       key={index}

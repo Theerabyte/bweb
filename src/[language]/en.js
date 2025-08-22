@@ -41,6 +41,7 @@ export const en = {
   of: "A Website for Orellfüssli in .NET Maui",
   mew: "A Website focusing on UX/UI-criteria, in HTML & CSS",
   lr: "My first ever project, Llama Race",
+  no: "Notora a Mobile React App, for combining multiple apps in one",
 
 //Contact
   contText: "If you have any questions regarding contents of my website or if you want to contact me,",
@@ -70,6 +71,10 @@ export const en = {
   cvGeorge3: "Passionate about exploring fantasy and non-fiction literature",
   cvHarley2: "Pfadi Patria, Bern",
   cvHarley3: "In the summer of 2025 I became a Groupleader in the Scout-division Turmalin.",
+  cvIda1: "Parttime Job",
+  cvIda2: "Pharmacy Worb",
+  cvIda3: "I worked for a Semester in the pharmacy in Worb, my duties were sorting new medicin into cabinetts, geting Money from the ATM, delivering medicin to Spitex and taking out the trash.",
+
 //Menu
   home: "My World",
   cv: "Resume",

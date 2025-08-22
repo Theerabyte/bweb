@@ -25,15 +25,7 @@ function page() {
         <p>{t.private}</p>
         <br />
       </div>
-      {/*corporate design:
-          #07036f Dunkelblau
-          #0d1d80 Blau
-          #275fb1 Hellblau
-          #8babca Graublau
-          #9cb5db Hoover Weissblau
-          #4f96ffff Hoover Weiss
-          #b57123 Headings
-    */}
+      
       <VerticalTimeline>
         <VerticalTimelineElement  contentStyle={{ background: '#b57123', color: '#fff' }} contentArrowStyle={{ borderRight: '7px solid  rgb(181, 113, 35)' }} date="2023 - present" iconStyle={{ background: 'rgb(181, 113, 35)', color: '#000' }} icon={<School />}>
           <h3 style={{ color: '#eea' }}>{t.cvAdam1}</h3>
@@ -41,55 +33,55 @@ function page() {
           <p>{t.cvAdam3}</p>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement  date="2014 - 2023" iconStyle={{ background: '#C0811E', color: '#000' }} icon={<School />}>
+        <VerticalTimelineElement dateClassName='dat' date="2014 - 2023" iconStyle={{ background: '#C0811E', color: '#000' }} icon={<School />}>
           <h3 style={{ color: '#C0811E' }}>{t.cvBravo1}</h3>
           <h4 style={{ color: '#000' }}>{t.cvBravo2}</h4>
           <p style={{ color: '#000' }}>{t.cvBravo3}</p>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement  date="2022" iconStyle={{ background: '#CA9119', color: '#000' }} icon={<Briefcase/>}>
+        <VerticalTimelineElement dateClassName='dat' date="2021" iconStyle={{ background: '#CA9119', color: '#000' }} icon={<Briefcase/>}>
           <h3 style={{ color: '#CA9119' }}>{t.cvIda1}</h3>
           <h4 style={{ color: '#000' }}>{t.cvIda2}</h4>
           <p style={{ color: '#000' }}>{t.cvIda3}</p>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement  date="2025 - ?" iconStyle={{ background: '#D09A16', color: '#000' }} icon={<Users />}>
+        <VerticalTimelineElement dateClassName='dat' date="2025 - ?" iconStyle={{ background: '#D09A16', color: '#000' }} icon={<Users />}>
           <h3 style={{ color: '#D09A16' }}>{t.cvCharlie1}</h3>
           <h4 style={{ color: '#000' }}>{t.cvHarley2}</h4>
           <p style={{ color: '#000' }}>{t.cvHarley3}</p>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement  date="2013 - 2023" iconStyle={{ background: '#D7A413', color: '#000' }} icon={<Users />}>
+        <VerticalTimelineElement dateClassName='dat' date="2013 - 2023" iconStyle={{ background: '#D7A413', color: '#000' }} icon={<Users />}>
           <h3 style={{ color: '#D7A413' }}>{t.cvCharlie1}</h3>
           <h4 style={{ color: '#000' }}>{t.cvCharlie2}</h4>
           <p style={{ color: '#000' }}>{t.cvCharlie3}</p>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement  date="2014 - 2015" iconStyle={{ background: '#DFB00F', color: '#000' }} icon={<Origami />}>
+        <VerticalTimelineElement dateClassName='dat' date="2014 - 2015" iconStyle={{ background: '#DFB00F', color: '#000' }} icon={<Origami />}>
           <h3 style={{ color: '#DFB00F' }}>{t.cvDelta1}</h3>
           <h4 style={{ color: '#000' }}>{t.cvDelta2}</h4>
           <p style={{ color: '#000' }}>{t.cvDelta3}</p>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement  date="2022 - ?" iconStyle={{ background: '#E5B90C', color: '#000' }} icon={<Origami />}>
+        <VerticalTimelineElement dateClassName='dat' date="2022 - ?" iconStyle={{ background: '#E5B90C', color: '#000' }} icon={<Origami />}>
           <h3 style={{ color: '#E5B90C' }}>{t.cvEdward1}</h3>
           <h4 style={{ color: '#000' }}>EC Münchenbuchsee</h4>
           <p style={{ color: '#000' }}>{t.cvFrank1}</p>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement  date="2015 - 2017" iconStyle={{ background: '#EFC907', color: '#000' }} icon={<Origami />}>
+        <VerticalTimelineElement dateClassName='dat' date="2015 - 2017" iconStyle={{ background: '#EFC907', color: '#000' }} icon={<Origami />}>
           <h3 style={{ color: '#EFC907' }}>{t.cvEdward1}</h3>
           <h4 style={{ color: '#000' }}>EC Burgdorf</h4>
           <p style={{ color: '#000' }}>{t.cvEdward3}</p>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement  date="2015 - ?" iconStyle={{ background: '#F9D803', color: '#000' }} icon={<BookMarked />}>
+        <VerticalTimelineElement dateClassName='dat' date="2015 - ?" iconStyle={{ background: '#F9D803', color: '#000' }} icon={<BookMarked />}>
           <h3 style={{ color: '#F9D803' }}>{t.cvGeorge1}</h3>
           <h4 style={{ color: '#000' }}>{t.cvGeorge2}</h4>
           <p style={{ color: '#000' }}>{t.cvGeorge3}</p>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement date='January 2008' iconStyle={{ background: '#ffe100', color: '#000' }} icon={<Cake />} />
+        <VerticalTimelineElement date='01. 2008' iconStyle={{ background: '#ffe100', color: '#000' }} icon={<Cake />} />
       </VerticalTimeline>
 
       <div className="content">
