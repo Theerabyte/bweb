@@ -17,15 +17,21 @@ function page() {
   const t = translationsMap[language];
 
   const noteURL = [
-    { src: "/docs/Project Abstract LARRY.pdf", desc: t.lar, preview: "/docs/ap-larry.png" },
     { src: "/docs/Project Abstract VorstellungsWebsite.pdf", desc: t.vow, preview: "/docs/ap-web.png" },
+    { src: "/docs/Project Abstract meWeb.pdf", desc: t.mew, preview: "/docs/ap-293.png" },
     { src: "/docs/Project Abstract BewerbungsWebsite.pdf", desc: t.bew, preview: "/docs/ap-bweb.png" },
 
-    { src: "/docs/Project Abstract Marsrover.pdf", desc: t.mr, preview: "/docs/oo.png" },
-    { src: "/docs/Project Abstract Orellfüssli.pdf", desc: t.of, preview: "/docs/oo.png" },
-    { src: "/docs/Project Abstract meWeb.pdf", desc: t.mew, preview: "/docs/oo.png" },
-    { src: "/docs/Project Abstract llama reace.pdf", desc: t.lr, preview: "/docs/oo.png" },
-    { src: "/docs/Project Abstract notora.pdf", desc: t.no, preview: "/docs/oo.png" },
+    { src: "/docs/Project Abstract Marsrover.pdf", desc: t.mr, preview: "/docs/ap-mr.jpg" },
+    { src: "/docs/Project Abstract Orellfüssli.pdf", desc: t.of, preview: "/docs/ap-of.png" },
+    { src: "/docs/Project Abstract LARRY.pdf", desc: t.lar, preview: "/docs/ap-larry.png" },
+
+    { src: "/docs/Project Abstract neo4j.pdf", desc: t.nsq, preview: "/docs/ap-neo.png" },
+    { src: "/docs/Project Abstract anae.pdf", desc: t.anae, preview: "/docs/ap-anae.png" },
+    { src: "/docs/Project Abstract ttgo.pdf", desc: t.tt, preview: "/docs/ap-tt.png" },
+
+    { src: "/docs/Project Abstract llama reace.pdf", desc: t.lr, preview: "/docs/ap-err.png" },
+    { src: "/docs/Project Abstract tuben.pdf", desc: t.tub, preview: "/docs/ap-err.png" },
+    { src: "/docs/Project Abstract notora.pdf", desc: t.no, preview: "/docs/ap-no.png" },
   ];
 
   return (
@@ -48,23 +54,25 @@ function page() {
           </div>
         </div>
         <div style={{ padding: '20px' }}>
-          <h1 style={{ fontSize: '24px', marginBottom: '20px' }}>Skills</h1>
-          <SkillProgress name="HTML" level={75} />
-          <SkillProgress name="CSS" level={75} />
+          <h2 style={{ color: '#fff', marginBottom: '20px' }}>Skills</h2>
+          <h3 className='skP'>{t.lang}</h3>
+          <SkillProgress name="HTML" level={85} />
+          <SkillProgress name="CSS" level={80} />
           <SkillProgress name="SQL" level={70} />
-          <SkillProgress name="C#" level={65} />
           <SkillProgress name="Java" level={65} />
           <SkillProgress name="JavaScript" level={55} />
           <SkillProgress name="React" level={50} />
-          <SkillProgress name="MySQL" level={50} />
-          <SkillProgress name="Noe4j" level={45} />
-          <SkillProgress name="Raspberry Pi/ Rasperean" level={45} />
-          <SkillProgress name="mongoDB" level={40} />
-          <SkillProgress name="SQLite" level={40} />
-          <SkillProgress name=".NET Maui" level={40} />
+          <SkillProgress name="C#" level={45} />
           <SkillProgress name="php" level={35} />
+          <SkillProgress name=".NET Maui" level={30} />
           <SkillProgress name="python" level={25} />
           <SkillProgress name="Haskell" level={10} />
+          <h3 className='skP'>IDE</h3>
+          <SkillProgress name="MySQL" level={50} />
+          <SkillProgress name="Noe4j" level={45} />
+          <SkillProgress name="mongoDB" level={40} />
+          <SkillProgress name="Raspberry Pi/ Rasperean" level={40} />
+          <SkillProgress name="SQLite" level={40} />
 
           {/* <SkillProgress name="" level={} /> */}
         </div>

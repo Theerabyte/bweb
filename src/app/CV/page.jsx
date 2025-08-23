@@ -84,7 +84,7 @@ function page() {
         <VerticalTimelineElement date='01. 2008' iconStyle={{ background: '#ffe100', color: '#000' }} icon={<Cake />} />
       </VerticalTimeline>
 
-      <div className="content">
+      <div className="contet">
         <h4>{t.certText}</h4>
         <table>
           <thead>

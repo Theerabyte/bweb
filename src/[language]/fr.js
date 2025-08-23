@@ -1,7 +1,6 @@
 export const fr = {
   moin: "Bonjour",
-  welc: "Bienvenue sur mon portfolio en ligne!",
-  wel: "Donc regardez moi",
+  welc: "Bienvenue sur mon site web!",
   logo: "Mon Logo",
   error: "Nom d'utilisateur ou mot de passe invalide.",
 //Impressum
@@ -65,12 +64,16 @@ export const fr = {
   lar: "Un jeu C# du nome LARRY",
   bew: "Cette site web, en React et Next.js ",
   vow: "Mon premier site web, en HTML, CSS et JavaScript",
-  mr: "Un Marsrover-robotteur python projet",
-  of: "Un site web pour Orellfüssli en .NET Maui",
+  mr: "Un Marsrover-roboteur python projet",
+  of: "Un app pour Orellfüssli en .NET Maui",
   mew: "Un site web focusing dans UX/UI-aspects, en HTML et CSS",
   lr: "Mon premier project, Llama Race",
   no: "Notora un app mobile en react, pour combiné multiple apps dans une",
-
+  tt: "",
+  nsq: "",
+  anae: "",
+  tub: "",
+  lang: "Langues",
 //Menu
   home: "Mon Monde",
   cv: "Curriculum vitae",

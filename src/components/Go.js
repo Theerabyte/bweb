@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image';
 import React from 'react';
 import { useLanguage } from '@/[language]/LanguageContext';
 
@@ -19,7 +18,6 @@ function Go() {
       <div className="welcCont">
         <div className="goCont" id='goCo'>
           <h1 id='welcCo'>{t.welc}</h1>
-          <h2>{t.wel}</h2>
         </div>
       </div>
     </>

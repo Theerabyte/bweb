@@ -1,7 +1,6 @@
 export const de = {
   moin: "Hallo",
-  welc: "Willkommen zu meinem Onlineportfolio!",
-  wel: "Lasst uns mich kennen lernen",
+  welc: "Willkommen auf meiner Website!",
   logo: "Mein Logo",
   error: "Ungültiger Benutzername oder Passwort",
 // Impressum
@@ -70,6 +69,11 @@ export const de = {
   mew: "Eine Website fokussiert auf UX/UI-kriterien, in HTML und CSS",
   lr: "Mein erstes Projekt je, Llama Race",
   no: "Notora eine Mobile-React App, welche mehrere apps in eine fasst.",
+  tt: "",
+  nsq: "",
+  anae: "",
+  tub: "",
+  lang: "Sprachen",
 // Menu
   home: "Meine Welt",
   cv: "Lebenslauf",

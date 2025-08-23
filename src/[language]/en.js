@@ -1,7 +1,6 @@
 export const en = {
   moin: "Hello",
-  welc: "Welcome to my online portfolio!",
-  wel: "Let us get to know me",
+  welc: "Welcome to my Website!",
   logo: "My Logo",
   error: "Invalid Username or Password.",
 // Impressum
@@ -69,11 +68,15 @@ export const en = {
   bew: "This Website, in React and Next.js",
   vow: "My first Website in simple HTML & CSS",
   mr: "A Marsrover-roboter python project",
-  of: "A Website for Orellfüssli in .NET Maui",
+  of: "An App for Orellfüssli in .NET Maui",
   mew: "A Website focusing on UX/UI-criteria, in HTML & CSS",
   lr: "My first ever project, Llama Race",
   no: "Notora a Mobile React App, for combining multiple apps in one",
-
+  tt: "",
+  nsq: "",
+  anae: "",
+  tub: "",
+  lang: "Languages",
 // Menu
   home: "My World",
   cv: "Resume",
