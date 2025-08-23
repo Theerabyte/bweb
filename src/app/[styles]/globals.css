@@ -506,12 +506,6 @@ tr:nth-child(odd) {
     gap: 20px;
 }
 
-.VauNote {
-    display: 'grid';
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
-}
-
 .Dow {
     padding: 8px 16px;
 }

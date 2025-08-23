@@ -1,6 +1,7 @@
 export const fr = {
   moin: "Bonjour",
   welc: "Bienvenue sur mon portfolio en ligne!",
+  wel: "Donc regardez moi",
   logo: "Mon Logo",
   error: "Nom d'utilisateur ou mot de passe invalide.",
 //Impressum
@@ -15,6 +16,11 @@ export const fr = {
   copyright: "Droit d'auteur",
   copyrightText: "Les contenus et œuvres créés par les opérateurs de ce site sont soumis au droit d'auteur suisse. La reproduction, le traitement, la diffusion et toute exploitation en dehors des limites du droit d'auteur nécessitent le consentement écrit du créateur.",
   impressumButton: "Mentions légales",
+//Contact
+  contText: "Si vous avez encore des questions concernantes le contenu de mon site web ou si vous souhaitez me contacter,",
+  contSp1: "vous pouvez le faire",
+  contSp2: "ici",
+  contSp3: "!",
 // CV
   cvText: "Sur cette page, vous trouverez des informations sur mon parcours scolaire et extrascolaire :",
 
@@ -57,18 +63,14 @@ export const fr = {
 //Projects
   projText: "Sur cette page, vous pouvez interagir avec tous mes projets",
   lar: "Un jeu C# du nome LARRY",
-  bew: "Cette site web dans une .pdf",
-  vow: "Mon premier site web",
-  mr: "A Marsrover-roboter python project",
-  of: "A Website for Orellfüssli in .NET Maui",
-  mew: "Un site web focusing on UX/UI-criteria, in HTML & CSS",
-  lr: "Mon premier first ever project, Llama Race",
+  bew: "Cette site web, en React et Next.js ",
+  vow: "Mon premier site web, en HTML, CSS et JavaScript",
+  mr: "Un Marsrover-robotteur python projet",
+  of: "Un site web pour Orellfüssli en .NET Maui",
+  mew: "Un site web focusing dans UX/UI-aspects, en HTML et CSS",
+  lr: "Mon premier project, Llama Race",
+  no: "Notora un app mobile en react, pour combiné multiple apps dans une",
 
-//Contact
-  contText: "Si vous avez encore des questions concernantes le contenu de mon site web ou si vous souhaitez me contacter,",
-  contSp1: "vous pouvez le faire",
-  contSp2: "ici",
-  contSp3: "!",
 //Menu
   home: "Mon Monde",
   cv: "Curriculum vitae",

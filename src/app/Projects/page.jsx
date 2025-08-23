@@ -25,9 +25,7 @@ function page() {
     { src: "/docs/Project Abstract Orellfüssli.pdf", desc: t.of, preview: "/docs/oo.png" },
     { src: "/docs/Project Abstract meWeb.pdf", desc: t.mew, preview: "/docs/oo.png" },
     { src: "/docs/Project Abstract llama reace.pdf", desc: t.lr, preview: "/docs/oo.png" },
-
     { src: "/docs/Project Abstract notora.pdf", desc: t.no, preview: "/docs/oo.png" },
-    { src: "/docs/Project Abstract .pdf", desc: t.a, preview: "/docs/oo.png" }
   ];
 
   return (

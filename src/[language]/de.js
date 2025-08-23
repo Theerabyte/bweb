@@ -1,6 +1,7 @@
 export const de = {
   moin: "Hallo",
   welc: "Willkommen zu meinem Onlineportfolio!",
+  wel: "Lasst uns mich kennen lernen",
   logo: "Mein Logo",
   error: "Ungültiger Benutzername oder Passwort",
 // Impressum
@@ -15,6 +16,11 @@ export const de = {
   copyright: "Urheberrechtshinweis",
   copyrightText: "Die Inhalte und Werke, die von den Betreibern dieser Website erstellt wurden, unterliegen dem Schweizer Urheberrecht. Die Vervielfältigung, Verarbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Erstellers.",
   impressumButton: "Impressum",
+// Contact
+  contText: "Falls Sie noch Fragen zum Inhalt meiner Webseite haben oder mich sonst kontaktieren wollen,",
+  contSp1: "können Sie das",
+  contSp2: "hier",
+  contSp3: " tun!",
 // CV
   cvText: "Auf dieser Seite können Sie sich über meinen schulischen und nicht-schulischen Werdegang informieren:",
 
@@ -59,11 +65,11 @@ export const de = {
   lar: "Ein C# spiel namens LARRY",
   bew: "Diese Website in einem .pdf",
   vow: "Meine erste Website",
-// Contact
-  contText: "Falls Sie noch Fragen zum Inhalt meiner Webseite haben oder mich sonst kontaktieren wollen,",
-  contSp1: "können Sie das",
-  contSp2: "hier",
-  contSp3: " tun!",
+  mr: "Ein Marsrover-robotter Python Projekt",
+  of: "Eine Website für Orellfüssli in .NET Maui",
+  mew: "Eine Website fokussiert auf UX/UI-kriterien, in HTML und CSS",
+  lr: "Mein erstes Projekt je, Llama Race",
+  no: "Notora eine Mobile-React App, welche mehrere apps in eine fasst.",
 // Menu
   home: "Meine Welt",
   cv: "Lebenslauf",
