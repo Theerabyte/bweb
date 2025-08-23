@@ -43,7 +43,7 @@ function Auth({ onLoginSuccess }) {
     <div style={{ border: '1px solid #ccc', padding: 20, maxWidth: 300 }}>
       <h3>{t.prLoI}</h3>
       <div>
-        <label>{t.prNa}:</label>
+        <label>{t.prNa}</label>
         <input
           type="text"
           value={username}
@@ -51,7 +51,7 @@ function Auth({ onLoginSuccess }) {
         />
       </div>
       <div>
-        <label>{t.prPa}:</label>
+        <label>{t.prPa}</label>
         <input
           type="password"
           value={password}

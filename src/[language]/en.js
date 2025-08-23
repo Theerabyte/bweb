@@ -112,8 +112,8 @@ export const en = {
   mud: "Music plays a huge role in my life; I listen to it at almost any time of the day",
 //Private
   prText: "Here I display all my shool related achievments.",
-  prNa: "Username",
-  prPa: "Password",
+  prNa: "Username:",
+  prPa: "Password:",
   prLoI: "Login",
   prLoU: "Logout",
   prPFT: "Gradesheets",

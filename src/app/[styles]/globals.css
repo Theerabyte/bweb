@@ -456,14 +456,12 @@ table {
 }
 
 td {
-    /* border: 2px solid rgb(0, 35, 102); */
     text-align: left;
     padding: 8px;
 }
 
 th {
     Font-family: Lobster;
-    /* border: 2px solid rgb(0, 35, 102); */
     text-align: left;
     padding: 8px;
     background-color: #275fb1;
@@ -605,6 +603,13 @@ tr:nth-child(odd) {
 @media only screen and (max-width: 500px) {
     .responsive {
         width: 100%;
+    }
+}
+
+/* Query for HuI animation*/
+@media (min-width: 1200px) {
+    .pics {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 

@@ -1,32 +1,24 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import { LanguageProvider } from '@/[language]/LanguageContext';
 import "@/app/[styles]/globals.css";
 import Nav from "@/components/Nav";
 import Bav from "@/components/Bav";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata = {
-  title: "Naomi Bächler",
-  description: "A subpage of The Bächler Family",
+  title: "Naomi Bächler"
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body >
         <LanguageProvider>
-        <Nav />
-        {children}
-        <Bav />
+          <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+            <Nav />
+            <main style={{ flex: 1, padding: '20px' }}>
+              {children}
+            </main>
+            <Bav />
+          </div>
         </LanguageProvider>
       </body>
     </html>
