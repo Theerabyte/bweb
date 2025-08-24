@@ -21,16 +21,16 @@ function page() {
     { src: "/docs/Project Abstract meWeb.pdf", desc: t.mew, preview: "/docs/ap-293.png" },
     { src: "/docs/Project Abstract BewerbungsWebsite.pdf", desc: t.bew, preview: "/docs/ap-bweb.png" },
 
-    { src: "/docs/Project Abstract Marsrover.pdf", desc: t.mr, preview: "/docs/ap-mr.jpg" },
+    { src: "/docs/Project Abstract MarsRover.pdf", desc: t.mr, preview: "/docs/ap-mr.jpg" },
     { src: "/docs/Project Abstract Orellfüssli.pdf", desc: t.of, preview: "/docs/ap-of.png" },
     { src: "/docs/Project Abstract LARRY.pdf", desc: t.lar, preview: "/docs/ap-larry.png" },
 
     { src: "/docs/Project Abstract neo4j.pdf", desc: t.nsq, preview: "/docs/ap-neo.png" },
-    { src: "/docs/Project Abstract anae.pdf", desc: t.anae, preview: "/docs/ap-anae.png" },
-    { src: "/docs/Project Abstract ttgo.pdf", desc: t.tt, preview: "/docs/ap-tt.png" },
+    { src: "/docs/Project Abstract ANAE.pdf", desc: t.anae, preview: "/docs/ap-anae.png" },
+    { src: "/docs/Project Abstract TTGO.pdf", desc: t.tt, preview: "/docs/ap-tt.png" },
 
-    { src: "/docs/Project Abstract llama reace.pdf", desc: t.lr, preview: "/docs/ap-err.png" },
-    { src: "/docs/Project Abstract tuben.pdf", desc: t.tub, preview: "/docs/ap-err.png" },
+    { src: "/docs/Project Abstract Llama Race.pdf", desc: t.lr, preview: "/docs/ap-err.png" },
+    { src: "/docs/Project Abstract Tauben.pdf", desc: t.tub, preview: "/docs/ap-err.png" },
     { src: "/docs/Project Abstract notora.pdf", desc: t.no, preview: "/docs/ap-no.png" },
   ];
 
@@ -67,7 +67,7 @@ function page() {
           <SkillProgress name=".NET Maui" level={30} />
           <SkillProgress name="python" level={25} />
           <SkillProgress name="Haskell" level={10} />
-          <h3 className='skP'>IDE</h3>
+          <h3 className='skP'>{t.lan}</h3>
           <SkillProgress name="MySQL" level={50} />
           <SkillProgress name="Noe4j" level={45} />
           <SkillProgress name="mongoDB" level={40} />

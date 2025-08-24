@@ -74,6 +74,7 @@ export const fr = {
   anae: "",
   tub: "",
   lang: "Langues",
+  lan: "envirements de development",
 //Menu
   home: "Mon Monde",
   cv: "Curriculum vitae",

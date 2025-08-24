@@ -77,6 +77,7 @@ export const en = {
   anae: "",
   tub: "",
   lang: "Languages",
+  lan: "IDEs",
 // Menu
   home: "My World",
   cv: "Resume",
