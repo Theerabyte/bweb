@@ -23,14 +23,14 @@ function page() {
   const handleToggle = (alt) => {
     setExpandedHobby(prev => (prev === alt ? null : alt));
   };
-  
+
   const hobbies = [
     { src: "/hob/ba.jpg", alt: t.ba, desc: t.ba, resc: t.bad },
     { src: "/hob/bu.jpg", alt: t.bu, desc: t.bu, resc: t.bud },
     { src: "/hob/da.jpg", alt: t.da, desc: t.da, resc: t.dad },
     { src: "/hob/ic.jpg", alt: t.ic, desc: t.ic, resc: t.icd },
     { src: "/hob/dn.jpg", alt: t.dn, desc: t.dn, resc: t.dnd },
-    { src: "/hob/bu.jpg", alt: t.pc, desc: t.pc, resc: t.pcd },
+    { src: "/hob/pc.png", alt: t.pc, desc: t.pc, resc: t.pcd },
     { src: "/hob/bw.jpg", alt: t.bw, desc: t.bw, resc: t.bwd },
     { src: "/hob/bu.jpg", alt: t.mu, desc: t.mu, resc: t.mud }
   ];
@@ -71,7 +71,7 @@ function page() {
               <div className="gallery">
                 {expandedHobby === hobby.alt ? (
                   <>
-                    <a target="_blank" rel="noopener noreferrer" href={hobby.src}>
+                    <a style={{ pointerEvents: 'none', cursor: 'default' }} href={hobby.src}>
                       <Image
                         src={hobby.src}
                         alt={hobby.alt}

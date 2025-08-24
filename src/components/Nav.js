@@ -61,7 +61,6 @@ function Nav() {
         <a onClick={() => handleNavigation('/CV')} className={isActive('/CV') ? 'active-link' : 'nava'}><FileUser className='ico' /> {t.cv}</a>
         <a onClick={() => handleNavigation('/Projects')} className={isActive('/Projects') ? 'active-link' : 'nava'}><FolderGit2 className='ico' /> {t.proj}</a>
         <a onClick={() => handleNavigation('/Vault')} className={isActive('/Vault') ? 'active-link' : 'nava'}><Lock className='ico' /> {t.priv}</a>
-        <a onClick={() => handleNavigation('/Contact')} className={isActive('/Contact') ? 'active-link' : 'nava'}><Phone className='ico' /> {t.cont}</a>
         <LanguageSwitcher />
       </div>
     </nav>
