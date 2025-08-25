@@ -119,6 +119,7 @@ export const en = {
   prPa: "Password:",
   prLoI: "Login",
   prLoU: "Logout",
+  prLod: "Loading",
   prPFT: "Gradesheets",
   prVC: "Vocational Courses",
   prPra: "Practical Training",

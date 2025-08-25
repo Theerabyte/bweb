@@ -21,17 +21,17 @@ function page() {
     { src: "/docs/Project Abstract meWeb.pdf", desc: t.mew, preview: "/docs/ap-293.png" },
     { src: "/docs/Project Abstract BewerbungsWebsite.pdf", desc: t.bew, preview: "/docs/ap-bweb.png" },
 
-    { src: "/docs/Project Abstract MarsRover.pdf", desc: t.mr, preview: "/docs/ap-mr.jpg" },
     { src: "/docs/Project Abstract Orellfüssli.pdf", desc: t.of, preview: "/docs/ap-of.png" },
     { src: "/docs/Project Abstract LARRY.pdf", desc: t.lar, preview: "/docs/ap-larry.png" },
+    { src: "/docs/Project Abstract Llama Race.pdf", desc: t.lr, preview: "/docs/ap-err.png" },
 
     { src: "/docs/Project Abstract neo4j.pdf", desc: t.nsq, preview: "/docs/ap-neo.png" },
     { src: "/docs/Project Abstract ANAE.pdf", desc: t.anae, preview: "/docs/ap-anae.png" },
-    { src: "/docs/Project Abstract TTGO.pdf", desc: t.tt, preview: "/docs/ap-tt.png" },
+    { src: "/docs/Project Abstract notora.pdf", desc: t.no, preview: "/docs/ap-notora.jpg" },
 
-    { src: "/docs/Project Abstract Llama Race.pdf", desc: t.lr, preview: "/docs/ap-err.png" },
-    { src: "/docs/Project Abstract Tauben.pdf", desc: t.tub, preview: "/docs/ap-err.png" },
-    { src: "/docs/Project Abstract notora.pdf", desc: t.no, preview: "/docs/ap-no.png" },
+    { src: "/docs/Project Abstract MarsRover.pdf", desc: t.mr, preview: "/docs/ap-mr.jpg" },
+    { src: "/docs/Project Abstract Blackberry Pi.pdf", desc: t.tub, preview: "/docs/ap-blackberrypi.jpg" },
+    { src: "/docs/Project Abstract TTGO.pdf", desc: t.tt, preview: "/docs/ap-tt.png" },
   ];
 
   return (
