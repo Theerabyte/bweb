@@ -40,18 +40,18 @@ function Auth({ onLoginSuccess }) {
   };
 
   return (
-    <div style={{ border: '1px solid #ccc', padding: 20, maxWidth: 300 }}>
-      <h3>{t.prLoI}</h3>
+    <div> {/*style={{ border: '1px solid #ccc', padding: 20, maxWidth: 300 }}*/} 
+      <h2 style={{textAlign: "center", paddingBottom: "1rem"}}>{t.prLoI}</h2>
       <div>
-        <label>{t.prNa}</label>
+        <label style={{paddingRight: "1rem"}}>{t.prNa}</label>
         <input
           type="text"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
       </div>
-      <div>
-        <label>{t.prPa}</label>
+      <div style={{paddingBottom: "1rem"}}>
+        <label  style={{paddingRight: "1rem"}}>{t.prPa} </label>
         <input
           type="password"
           value={password}
@@ -59,7 +59,7 @@ function Auth({ onLoginSuccess }) {
         />
       </div>
       {error && <div style={{ color: 'red', marginTop: 10 }}>{error}</div>}
-      <button onClick={handleLogin} style={{ marginTop: 10 }}>
+      <button onClick={handleLogin} style={{ margin: 10 }}>
         {t.prLoI}
       </button>
     </div>
