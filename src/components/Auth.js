@@ -13,29 +13,37 @@ function Auth({ onLoginSuccess }) {
   const { language, changeLanguage } = useLanguage();
   const t = translationsMap[language];
 
-  const users = [
-    { username: 'admin', password: 'admin123' },
-    { username: 'guest', password: 'guest123' }
-  ];
-
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
 
-  const handleLogin = () => {
-    console.log("users", process.env.NEXT_PUBLIC_REACT_APP_USER1_USERNAME, process.env.NEXT_PUBLIC_REACT_APP_USER1_PASSWORD)
-    const user = users.find(
-      (u) => {
-        console.log("user", u, username, password);
-        return u.username === username && u.password === password;
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setError('');
+
+    try {
+      const response = await fetch('/api/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ username, password }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok && data.success) {
+        onLoginSuccess();
+      } else {
+        setError(t.error);
       }
-    );
-
-    if (user) {
-      setError('');
-      onLoginSuccess();
-    } else {
+    } catch (err) {
+      console.error('Login error:', err);
       setError(t.error);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -48,6 +56,7 @@ function Auth({ onLoginSuccess }) {
           type="text"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
+          required
         />
       </div>
       <div style={{ paddingBottom: "1rem" }}>
@@ -56,11 +65,12 @@ function Auth({ onLoginSuccess }) {
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          required
         />
       </div>
       {error && <div style={{ color: 'red', marginTop: 10 }}>{error}</div>}
-      <button onClick={handleLogin} style={{ margin: 10 }}>
-        {t.prLoI}
+      <button onClick={handleLogin} style={{ margin: 10 }} disabled={loading}>
+        {loading ? t.prLod : t.prLoI}
       </button>
     </div>
   );

@@ -1,7 +1,7 @@
 'use client'
 
 import Auth from '@/components/Auth';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Noten from '@/components/Noten';
 import { useLanguage } from '@/[language]/LanguageContext';
 
@@ -16,15 +16,8 @@ function page() {
   const { language, changeLanguage } = useLanguage();
   const t = translationsMap[language];
 
-  const [isAuthenticated, setIsAuthenticated] = useState(false)
-
-  const handleLoginSuccess = () => {
-    setIsAuthenticated(true)
-  }
-
-  const handleLogout = () => {
-    setIsAuthenticated(false)
-  }
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   const noteURL = [
     { src: "/docs/noten/zeugnis-1.pdf", desc: t.z1, preview: "/docs/noten/z1.png" },
@@ -49,6 +42,38 @@ function page() {
   const handleDowAll = () => {
     window.location.href = '/docs/noten/naomi_baechler_noten.zip';
   };
+
+  useEffect(() => {
+    const checkAuth = async () => {
+      try {
+        const response = await fetch('/api/check-auth', {
+          method: 'GET',
+          credentials: 'include',
+        });
+        const data = await response.json();
+        setIsAuthenticated(data.isAuthenticated);
+      } catch (err) {
+        console.error('Auth check error:', err);
+        setIsAuthenticated(false);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    checkAuth();
+  }, []);
+
+  const handleLoginSuccess = () => {
+    setIsAuthenticated(true);
+  };
+
+  const handleLogout = async () => {
+    await fetch('/api/logout', { method: 'POST' });
+    setIsAuthenticated(false);
+  };
+
+  if (isLoading) {
+    return <div>{t.prLod}</div>;
+  }
 
   return (
     <div className="column">

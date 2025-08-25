@@ -31,7 +31,7 @@ function page() {
 
     { src: "/docs/Project Abstract MarsRover.pdf", desc: t.mr, preview: "/docs/ap-mr.jpg" },
     { src: "/docs/Project Abstract Blackberry Pi.pdf", desc: t.tub, preview: "/docs/ap-blackberrypi.jpg" },
-    { src: "/docs/Project Abstract TTGO.pdf", desc: t.tt, preview: "/docs/ap-tt.png" },
+    { src: "/docs/Project Abstract TTGO.pdf", desc: t.tt, preview: "/docs/ap-tt.jpg" },
   ];
 
   return (
