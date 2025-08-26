@@ -14,33 +14,71 @@ web-ncb/
 │
 ├── public/
 │   ├── docs/
+│   │   ├── noten/
+│   │   │   ├── FS24.jpg
+│   │   │   ├── FS25.jpg
+│   │   │   ├── HS23.jpg
+│   │   │   ├── HS24.jpg
+│   │   │   ├── m106.pdf
+│   │   │   ├── m106.png
+│   │   │   ├── m187.pdf
+│   │   │   ├── m187.png
+│   │   │   ├── m210.pdf
+│   │   │   ├── m210.png
+│   │   │   ├── m294.pdf
+│   │   │   ├── m294.png
+│   │   │   ├── m295.pdf
+│   │   │   ├── m295.png
+│   │   │   ├── m335.pdf
+│   │   │   ├── m335.png
+│   │   │   ├── naomi_baechler_noten.zip
+│   │   │   ├── z1.png
+│   │   │   ├── z2.png
+│   │   │   ├── zeugnis-1.pdf
+│   │   │   └── zeugnis-2.pdf
+│   │   │
 │   │   ├── word/
 │   │   │   ├── IMS_CL-eig. Website_def.docx
 │   │   │   ├── IMS_Project-Abstract_Vorlage_D.dotx
-│   │   │   ├── IMS_Project-Abstract_Vorlage_E.dotx
-│   │   │   ├── Project Abstract IntroductionWebsite.docx
+│   │   │   ├── Project Abstract ANAE.docx
+│   │   │   ├── Project Abstract BewerbungsWebsite.docx
+│   │   │   ├── Project Abstract Blackberry Pi.docx
+│   │   │   ├── Project Abstract LARRY.docx
+│   │   │   ├── Project Abstract Llama Race.docx
+│   │   │   ├── Project Abstract MarsRover.docx
+│   │   │   ├── Project Abstract meWeb.docx
+│   │   │   ├── Project Abstract neo4j.docx
+│   │   │   ├── Project Abstract notora.docx
+│   │   │   ├── Project Abstract Orellfüssli.docx
+│   │   │   ├── Project Abstract TTGO.docx
 │   │   │   └── Project Abstract VorstellungsWebsite.docx
-│   │   ├── FS24.jpg
-│   │   ├── FS25.jpg
-│   │   ├── HS23.jpg
-│   │   ├── HS24.jpg
-│   │   ├── Project Abstract IntroductionWebsite.pdf
-│   │   ├── Project Abstract VorstellungsWebsite.pdf
-│   │   ├── Zeugnis-1.pdf
-│   │   └── Zeugnis-2.pdf
+│   │   │
+│   │   ├── ap-293.png
+│   │   ├── ap-anae.png
+│   │   ├── ap-blackberrypi.jpg
+│   │   ├── ap-bweb.png
+│   │   ├── ap-larry.png
+│   │   ├── ap-mr.jpg
+│   │   ├── ap-neo.png
+│   │   ├── ap-notora.jpg
+│   │   ├── ap-of.png
+│   │   ├── ap-tt.jpg
+│   │   ├── ap-web.png
+│   │   ├── Project Abstract BeweerrbungsWebsite.pdf
+│   │   ├── Project Abstract LARRY.pdf
+│   │   ├── Project Abstract MarsRover.pdf
+│   │   └── Project Abstract VorstellungsWebsite.pdf
+│   │
 │   ├── hob/
 │   │   ├── ba.jpg
 │   │   ├── bu.jpg
 │   │   ├── bw.jpg
 │   │   ├── da.jpg
 │   │   ├── dn.jpg
-│   │   ├── gm.jpg
 │   │   ├── ic.jpg
-│   │   └── mu.jpg
-│   ├── icons/
-│   │   ├── v1.png
-│   │   ├── v1.svg
-│   │   └── v3.png
+│   │   ├── mu.jpg
+│   │   └── pc.png
+│   │
 │   ├── adam.jpg
 │   ├── bravo.jpg
 │   ├── charlie.jpg
@@ -50,6 +88,7 @@ web-ncb/
 │   ├── frank.jpg
 │   ├── globe.svg
 │   ├── next.svg
+│   ├── v3.png
 │   ├── vercel.svg
 │   └── window.svg
 │
@@ -69,8 +108,13 @@ web-ncb/
 │   │   │   ├── lobster/
 │   │   │   │   └── Lobster-Regular.ttf
 │   │   │   └── global.css
-│   │   ├── Contact/
-│   │   │   └── page.jsx
+│   │   │
+│   │   ├── api/
+│   │   │   ├── Project Abstract .docx
+│   │   │   │   └── FuturaPTBook.otf
+│   │   │   └── Project Abstract .docx
+│   │   │       └── FuturaPTBook.otf
+│   │   │
 │   │   ├── CV/
 │   │   │   └── page.jsx
 │   │   ├── Home/
