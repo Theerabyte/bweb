@@ -53,7 +53,7 @@ function Nav() {
   return (
     <nav style={{ transition: 'transform 0.3s ease', transform: isLangExpanded ? 'translateX(-100px)' : 'translateX(0)' }} >
       <div className='logo'>
-        <img className='icon' src='/icons/v3.png' />
+        <img className='icon' src='/v3.png' />
       </div>
       <button id="menuButton" className="menu-button" onClick={handleMenuToggle} style={{ marginLeft: "2%" }}><Menu className='icon' /></button>
       <div className={`${open ? "show" : "menu"}`} ref={menuRef}>
