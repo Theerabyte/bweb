@@ -53,54 +53,55 @@ web-ncb/
 │   ├── vercel.svg
 │   └── window.svg
 │
-└── src/
-    ├── [language]/
-    │   ├── de.js
-    │   ├── en.js
-    │   ├── fr.js
-    │   └── LanguageContext.js
-    │
-    ├── app/
-    │   ├── [styles]/
-    │   │   ├── futura/
-    │   │   │   └── FuturaPTBook.otf
-    │   │   ├── lake/
-    │   │   │   └── EagleLake-Regular.ttf
-    │   │   ├── lobster/
-    │   │   │   └── Lobster-Regular.ttf
-    │   │   └── global.css
-    │   ├── Contact/
-    │   │   └── page.jsx
-    │   ├── CV/
-    │   │   └── page.jsx
-    │   ├── Home/
-    │   │   └── page.jsx
-    │   ├── Projects/
-    │   │   └── page.jsx
-    │   ├── Vault/
-    │   │   └── page.jsx
-    │   ├── favicon.ico
-    │   ├── layout.js
-    │   └── page.js
-    │
-    ├── components/
-    │   ├── Auth.js
-    │   ├── Bav.js
-    │   ├── Go.js
-    │   ├── LanguageSwitcher.js
-    │   ├── Nav.js
-    │   ├── Note.js
-    │   └── NoteBlat.js
-    │
-    ├── .env
-    ├── .gitignore
-    ├── eslint.config.mjs
-    ├── jsconfig.json
-    ├── next.config.mjs
-    ├── package-lock.json
-    ├── package.json
-    ├── postcss.config.mjs
-    └── README.md
+├── src/
+│   ├── [language]/
+│   │   ├── de.js
+│   │   ├── en.js
+│   │   ├── fr.js
+│   │   └── LanguageContext.js
+│   │
+│   ├── app/
+│   │   ├── [styles]/
+│   │   │   ├── futura/
+│   │   │   │   └── FuturaPTBook.otf
+│   │   │   ├── lake/
+│   │   │   │   └── EagleLake-Regular.ttf
+│   │   │   ├── lobster/
+│   │   │   │   └── Lobster-Regular.ttf
+│   │   │   └── global.css
+│   │   ├── Contact/
+│   │   │   └── page.jsx
+│   │   ├── CV/
+│   │   │   └── page.jsx
+│   │   ├── Home/
+│   │   │   └── page.jsx
+│   │   ├── Projects/
+│   │   │   └── page.jsx
+│   │   ├── Vault/
+│   │   │   └── page.jsx
+│   │   ├── favicon.ico
+│   │   ├── layout.js
+│   │   └── page.js
+│   │
+│   └── components/
+│       ├── Auth.js
+│       ├── Bav.js
+│       ├── Go.js
+│       ├── LanguageSwitcher.js
+│       ├── Nav.js
+│       ├── Note.js
+│       └── NoteBlat.js
+│
+├── .env.local
+├── .gitignore
+├── eslint.config.mjs
+├── jsconfig.json
+├── middleware.js
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+└── README.md
 ```
 
 # Features
