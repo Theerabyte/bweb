@@ -440,14 +440,14 @@ div.desc {
 
 
 .proFi {
-    background-color: #2658a8ff;
+    background-color: rgb(0, 0, 0);
     border-radius: 999px;
     transition: width 0.5s ease-in-out;
     background: #ffc800;
     background: linear-gradient(260deg, rgba(255, 200, 0, 1) 0%, rgba(255, 131, 8, 1) 28%, rgba(2, 8, 194, 1) 75%);
 }
 
-.skP{
+.skP {
     font-family: Futura;
     text-align: center;
     color: #eea;
