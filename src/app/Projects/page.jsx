@@ -23,7 +23,7 @@ function page() {
 
     { src: "/docs/Project Abstract Orellfüssli.pdf", desc: t.of, preview: "/docs/ap-of.png" },
     { src: "/docs/Project Abstract LARRY.pdf", desc: t.lar, preview: "/docs/ap-larry.png" },
-    { src: "/docs/Project Abstract Llama Race.pdf", desc: t.lr, preview: "/docs/ap-err.png" },
+    { src: "/docs/Project Abstract Lama Race.pdf", desc: t.lr, preview: "/docs/ap-lm.png" },
 
     { src: "/docs/Project Abstract neo4j.pdf", desc: t.nsq, preview: "/docs/ap-neo.png" },
     { src: "/docs/Project Abstract ANAE.pdf", desc: t.anae, preview: "/docs/ap-anae.png" },
@@ -33,6 +33,10 @@ function page() {
     { src: "/docs/Project Abstract Blackberry Pi.pdf", desc: t.tub, preview: "/docs/ap-blackberrypi.jpg" },
     { src: "/docs/Project Abstract TTGO.pdf", desc: t.tt, preview: "/docs/ap-tt.jpg" },
   ];
+
+  const handleDowAll = () => {
+    window.location.href = '/docs/noten/naomi_baechler_noten.zip';
+  };
 
   return (
     <div className="content">
@@ -52,6 +56,8 @@ function page() {
               />
             ))}
           </div>
+          <br />
+          <button className="Dow" onClick={handleDowAll}>{t.proDow}</button>
         </div>
         <div style={{ padding: '20px' }}>
           <h2 style={{ color: '#fff', marginBottom: '20px' }}>Skills</h2>

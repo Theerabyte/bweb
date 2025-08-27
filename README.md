@@ -44,7 +44,7 @@ web-ncb/
 │   │   │   ├── Project Abstract BewerbungsWebsite.docx
 │   │   │   ├── Project Abstract Blackberry Pi.docx
 │   │   │   ├── Project Abstract LARRY.docx
-│   │   │   ├── Project Abstract Llama Race.docx
+│   │   │   ├── Project Abstract Lama Race.docx
 │   │   │   ├── Project Abstract MarsRover.docx
 │   │   │   ├── Project Abstract meWeb.docx
 │   │   │   ├── Project Abstract neo4j.docx
