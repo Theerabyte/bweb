@@ -60,6 +60,22 @@ nav {
     padding: 10px 0;
     padding-right: 20px;
 }
+/* 
+nav button {
+    color: #07036F;
+    font-weight: bolder;
+    font-size: x-large;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 2rem;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background: #C0811E;
+    border-radius: 2rem;
+} */
 
 .nava {
     color: #07036F;
@@ -218,6 +234,13 @@ h4 {
     width: 15;
     cursor: pointer;
     padding: 5px 5px !important;
+}
+
+/* GitHub auf css deletation durchsuchen */
+.langA:hover {
+    background-color: #b57123;
+    border-radius: 2rem;
+    padding: 2rem;
 }
 
 .langBox {
@@ -531,7 +554,7 @@ tr:nth-child(odd) {
 
 /* -------------------------- Querys ---------------------------- */
 /* Query for Menu animation */
-@media (max-width: 800px) {
+@media (max-width: 1064px) {
     nav {
         flex-direction: column;
     }
@@ -573,7 +596,7 @@ tr:nth-child(odd) {
 }
 
 /* Query for index animation */
-@media (max-width: 850px) {
+@media (max-width: 1064px) {
     nav {
         padding: 5px 0;
     }

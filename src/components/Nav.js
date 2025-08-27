@@ -27,7 +27,7 @@ function Nav() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 900);
+      setIsMobile(window.innerWidth <= 1064);
     };
 
     handleResize();
@@ -57,10 +57,10 @@ function Nav() {
       </div>
       <button id="menuButton" className="menu-button" onClick={handleMenuToggle} style={{ marginLeft: "2%" }}><Menu className='icon' /></button>
       <div className={`${open ? "show" : "menu"}`} ref={menuRef}>
-        <a onClick={() => handleNavigation('/Home')} className={isActive('/Home') ? 'active-link' : 'nava'}><Earth className='ico'/> {!isMobile && t.home}</a>
-        <a onClick={() => handleNavigation('/CV')} className={isActive('/CV') ? 'active-link' : 'nava'}><FileUser className='ico' /> {!isMobile && t.cv}</a>
-        <a onClick={() => handleNavigation('/Projects')} className={isActive('/Projects') ? 'active-link' : 'nava'}><FolderGit2 className='ico' /> {!isMobile && t.proj}</a>
-        <a onClick={() => handleNavigation('/Vault')} className={isActive('/Vault') ? 'active-link' : 'nava'}><Lock className='ico' /> {!isMobile && t.priv}</a>
+        <a onClick={() => handleNavigation('/Home')} className={isActive('/Home') ? 'active-link' : 'nava'}><Earth className='ico'/>{!isMobile && t.home}</a>
+        <a onClick={() => handleNavigation('/CV')} className={isActive('/CV') ? 'active-link' : 'nava'}><FileUser className='ico' />{!isMobile && t.cv}</a>
+        <a onClick={() => handleNavigation('/Projects')} className={isActive('/Projects') ? 'active-link' : 'nava'}><FolderGit2 className='ico' />{!isMobile && t.proj}</a>
+        <a onClick={() => handleNavigation('/Vault')} className={isActive('/Vault') ? 'active-link' : 'nava'}><Lock className='ico' />{!isMobile && t.priv}</a>
         <LanguageSwitcher />
       </div>
     </nav>
