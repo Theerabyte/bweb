@@ -10,7 +10,7 @@ const LanguageSwitcher = () => {
   const toggleExpand = () => {
     const newExpanded = !isExpanded;
     setIsExpanded(newExpanded);
-    if (onToggle) {
+    if (ontoggle) {
       onToggle(newExpanded);
     }
   };
