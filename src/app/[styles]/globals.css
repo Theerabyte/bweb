@@ -415,6 +415,25 @@ div.desc {
     font-weight: bold;
 }
 
+.det {
+    color: #D09A16;
+    font-weight: bold !important;
+    margin-top: 10px !important;
+    text-align: center !important;
+}
+
+.custom-timeline-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-timeline-element .vertical-timeline-element-date {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
 /* ------------------------- Page : CONTACT ---------------------- */
 .section {
     margin-top: 16px !important;
