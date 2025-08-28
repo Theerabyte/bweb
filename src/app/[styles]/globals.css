@@ -411,13 +411,13 @@ div.desc {
 }
 
 .dat {
-    color: #D09A16;
-    font-weight: bold;
+    color: #fff;
+    font-size: x-large !important;
 }
 
 .det {
-    color: #D09A16;
-    font-weight: bold !important;
+    color: #fff;
+    font-size: x-large !important;
     margin-top: 10px !important;
     text-align: center !important;
 }
@@ -635,7 +635,7 @@ tr:nth-child(odd) {
     }
 }
 
-/* Query for HuI animation*/
+/* Query for HuI animation */
 @media (min-width: 1200px) {
     .pics {
         grid-template-columns: repeat(2, 1fr);
@@ -655,6 +655,18 @@ tr:nth-child(odd) {
     }
 }
 
+@media only screen and (max-width: 1169px) {
+    .dat {
+        color:#ffc800;
+    }
+
+    .det {
+        color: #ffc800;
+    }
+
+}
+
+/* Query for Impressum animation */
 @media (max-width: 700px) {
     #impressumButton {
         margin: 0 25%;

@@ -35,7 +35,7 @@ function page() {
   ];
 
   const handleDowAll = () => {
-    window.location.href = '/docs/noten/naomi_baechler_noten.zip';
+    window.location.href = '/docs/naomi-baechler-project-abstracts.zip';
   };
 
   return (
