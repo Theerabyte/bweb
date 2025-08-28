@@ -32,7 +32,7 @@ function page() {
     { src: "/hob/dn.jpg", alt: t.dn, desc: t.dn, resc: t.dnd },
     { src: "/hob/pc.png", alt: t.pc, desc: t.pc, resc: t.pcd },
     { src: "/hob/bw.jpg", alt: t.bw, desc: t.bw, resc: t.bwd },
-    { src: "/hob/bu.jpg", alt: t.mu, desc: t.mu, resc: t.mud }
+    { src: "/hob/mu.png", alt: t.mu, desc: t.mu, resc: t.mud }
   ];
 
   useEffect(() => {
