@@ -494,6 +494,8 @@ th {
     text-align: left;
     padding: 8px;
     background-color: #275fb1;
+    color: #9cb5db;
+    letter-spacing: 0.15rem;
 }
 
 tr:nth-child(even) {
@@ -657,7 +659,7 @@ tr:nth-child(odd) {
 
 @media only screen and (max-width: 1169px) {
     .dat {
-        color:#ffc800;
+        color: #ffc800;
     }
 
     .det {

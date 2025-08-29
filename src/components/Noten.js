@@ -10,7 +10,7 @@ function Noten({ src, alt, title, isPDF, preview }) {
 
   return (
     <div className="proFo" style={{ border: '1px solid #ccc', padding: '10px', borderRadius: '5px', textAlign: 'center' }}>
-      <div style={{ width: '100%', height: '200px', background: '#f0f0f0', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '10px' }}>
+      <div style={{ width: '100%', height: '200px', background: '#f0f0f0', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '10px', borderRadius: '0.5rem' }}>
         {preview ? (
           <img src={preview} alt={alt} style={{ width: '100%', height: 'auto', maxHeight: '200px', objectFit: 'contain' }} />
         ) : (

@@ -27,7 +27,7 @@ function page() {
       </div>
 
       <VerticalTimeline>
-        <VerticalTimelineElement contentStyle={{ background: '#b57123', color: '#fff' }} contentArrowStyle={{ borderRight: '7px solid  rgb(181, 113, 35)' }} dateClassName="dat" date="2023 - present" iconStyle={{ background: 'rgb(181, 113, 35)', color: '#000' }} icon={<School />}>
+        <VerticalTimelineElement contentStyle={{ background: '#b57123', color: '#fff' }} contentArrowStyle={{ borderRight: '7px solid  rgb(181, 113, 35)' }} dateClassName="dat" date="2023 - 2027" iconStyle={{ background: 'rgb(181, 113, 35)', color: '#000' }} icon={<School />}>
           <h3 style={{ color: '#eea', textAlign: 'center' }}>{t.cvAdam1}</h3>
           <h4 style={{ color: '#fff' }}>{t.cvAdam2}</h4>
           <p>{t.cvAdam3}</p>
