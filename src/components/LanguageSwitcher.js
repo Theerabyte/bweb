@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Plus, X } from 'lucide-react'
+import { Languages, SpellCheck } from 'lucide-react'
 import { DE, GB, FR } from 'country-flag-icons/react/3x2'
 import { useLanguage } from '@/[language]/LanguageContext'
 
@@ -20,7 +20,7 @@ const LanguageSwitcher = () => {
       <div style={{ cursor: 'pointer', fontSize: '24px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#07036f !important' }}
         onClick={toggleExpand}
       >
-        {isExpanded ? <X size={28} /> : <Plus size={28} />}
+        {isExpanded ? <SpellCheck size={28} /> : <Languages size={28} />}
       </div>
       {isExpanded && (
         <div className='langBox'>
