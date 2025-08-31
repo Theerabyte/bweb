@@ -80,12 +80,12 @@ export const fr = {
   nsq: "League of Data, une application PHP NoSQL",
   ana: "ANAE, un décrypteur et un crypteur pour les chiffrements binaires et César",
   tub: "Blackberry Pi, un nouveau téléphone Blackberry fonctionnant sur un processeur Raspberry Pi",
-  // resc !!!
-  av: ", Produkt vom Praxistraining HS23",
-  ar: ", Produkt vom Praxistraining FS24",
-  an: ", Produkt vom üK m335",
-  ab: "Wurde nicht bewertet",
-  aa: "Hobby-projekt wurde nicht benotet",
+  // resc
+  av: "Produit issu de la formation pratique HS23",
+  ar: "Produit issu de la formation pratique FS24",
+  an: "Produit issu de la formation interentreprises m335",
+  ab: "N'a pas été évalué",
+  aa: "Le projet amateur n'a pas été noté",
 //Menu
   home: "Mon Monde",
   cv: "Curriculum vitae",
@@ -132,7 +132,7 @@ export const fr = {
   prPra: "Fichiers de cours practical",
   prDow: "Télécharger mon bulletin scolaire",
 
-  z1: "average? note? deuxiem trimestre: ",
+  z1: "moyenne note deuxième trimestre: ",
 
   m187: "Module 187, PC et ergonomie du poste de travail",
   m106: "Module 106, Base de données SQL",

@@ -80,12 +80,12 @@ export const en = {
   nsq: "League of Data, a NoSQL php App",
   ana: "ANAE, an de- and encrypter for binary and Caesar ciphers",
   tub: "Blackberry Pi, a new Blackberry phone running on a Raspberry Pi core",
-  // resc !!!
-  av: ", Produkt vom Praxistraining HS23",
-  ar: ", Produkt vom Praxistraining FS24",
-  an: ", Produkt vom üK m335",
-  ab: "Wurde nicht bewertet",
-  aa: "Hobby-projekt wurde nicht benotet",
+  // resc
+  av: ", Product from practical training HS23",
+  ar: ", Product from practical training FS24",
+  an: ", Product from üK m335",
+  ab: "Not assessed",
+  aa: "Hobbyproject not assessed",
 // Menu
   home: "My World",
   cv: "Resume",

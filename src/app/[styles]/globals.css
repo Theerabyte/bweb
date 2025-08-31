@@ -335,22 +335,22 @@ footer {
 div.gallery {
     border-style: solid;
     border-color: #8babca;
-    border-bottom-right-radius: 12.5%;
-    border-bottom-left-radius: 12.5%;
+    border-radius: 2rem;
     border-width: .25em;
 }
 
 div.gallery:hover {
     border-style: solid;
     border-color: #9cb5db;
-    border-bottom-right-radius: 12.5%;
-    border-bottom-left-radius: 12.5%;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     border-width: .25em;
 }
 
 div.gallery img {
     width: 100%;
     height: auto;
+    border-radius: 2rem;
 }
 
 div.desc {
@@ -361,6 +361,7 @@ div.desc {
 .responsive {
     padding: 0 6px;
     width: 100%;
+    cursor: pointer;
 }
 
 .pics {

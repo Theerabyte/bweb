@@ -67,7 +67,7 @@ function page() {
         <br />
         <div className="pics">
           {hobbies.map((hobby) => (
-            <div className="responsive" key={hobby.alt} onClick={() => handleToggle(hobby.alt)} style={{ cursor: 'pointer' }}>
+            <div className="responsive" key={hobby.alt} onClick={() => handleToggle(hobby.alt)}>
               <div className="gallery">
                 {expandedHobby === hobby.alt ? (
                   <>

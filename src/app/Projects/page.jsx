@@ -80,8 +80,6 @@ function page() {
           <SkillProgress name="mongoDB" level={40} />
           <SkillProgress name="Raspberry Pi/ Rasperean" level={40} />
           <SkillProgress name="SQLite" level={40} />
-
-          {/* <SkillProgress name="" level={} /> */}
         </div>
       </section>
     </div>
