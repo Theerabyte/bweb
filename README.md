@@ -155,7 +155,7 @@ The website features a Homepage with pictures and hobbies, a CV-page with a time
 This project utilizes React, Next JS, HTML, CSS, Embla Carousel, Verticale-timeline and more.
 
 # Deployment
-The website will be deployed at `[Website url following]`and is regularly updated with new content and features.
+The website will be deployed at [naomi-baechler.ch](https://naomi-baechler.ch)and is regularly updated with new content and features.
 
 # Contributing
 This is a personal project, but if you have any suggestions or ideas, feel free to contact me here on git Hub or find my contact info in my Contact-page.
