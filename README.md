@@ -64,10 +64,18 @@ web-ncb/
 │   │   ├── ap-of.png
 │   │   ├── ap-tt.jpg
 │   │   ├── ap-web.png
-│   │   ├── Project Abstract BeweerrbungsWebsite.pdf
+│   │   ├── Project Abstract ANAE.pdf
+│   │   ├── Project Abstract BeweWebsite.pdf
+│   │   ├── Project Abstract Blackberry Pi.pdf
+│   │   ├── Project Abstract Lama Race.pdf
 │   │   ├── Project Abstract LARRY.pdf
 │   │   ├── Project Abstract MarsRover.pdf
-│   │   └── Project Abstract VorstellungsWebsite.pdf
+│   │   ├── Project Abstract meWeb.pdf
+│   │   ├── Project Abstract neo4j.pdf
+│   │   ├── Project Abstract notora.pdf
+│   │   ├── Project Abstract Orellfüssli.pdf
+│   │   ├── Project Abstract TTGO.pdf
+│   │   └── Project Abstract VorsWebsite.pdf
 │   │
 │   ├── hob/
 │   │   ├── ba.jpg
@@ -103,8 +111,6 @@ web-ncb/
 │   │   ├── [styles]/
 │   │   │   ├── futura/
 │   │   │   │   └── FuturaPTBook.otf
-│   │   │   ├── lake/
-│   │   │   │   └── EagleLake-Regular.ttf
 │   │   │   ├── lobster/
 │   │   │   │   └── Lobster-Regular.ttf
 │   │   │   └── global.css
