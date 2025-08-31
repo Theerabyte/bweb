@@ -47,7 +47,7 @@ export const en = {
   cvIda2: "Pharmacy in Worb",
   cvIda3: "I worked at the pharmacy in Worb for one Semester. My responsibilities included sorting and tidying new medicines, collecting money from the bank, delivering medicines to Spitex and disposing of waste.",
 // Certificates
-  certText: "Here is a table containing all of the certificates I earned in the past 16 years:",
+  certText: "Here is a table containing all of the certificates I earned in the last 16 years:",
   crName: "Name",
   crDesc: "Description",
   crDate: "Date",
@@ -63,7 +63,7 @@ export const en = {
   crN5: "WSC",
   crD5: "Water saftey check",
 // Projects
-  projText: "On this page you can interact with all my projects",
+  projText: "On this page you can interact with all my projects:",
   proDow: "Download all my project abstracts",
   lang: "Languages",
   lan: "IDEs",
@@ -85,11 +85,11 @@ export const en = {
   ana: "ANAE, an de- and encrypter",
   tub: "Blackberry Pi, Blackberry x RaspberryPi",
   // resc
-  av: ", Product from practical training HS23",
-  ar: ", Product from practical training FS24",
-  an: ", Product from üK m335",
+  av: ", product from practical training HS23",
+  ar: ", product from practical training FS24",
+  an: ", product from üK m335",
   ab: "Not assessed",
-  aa: "Hobbyproject not assessed",
+  aa: "Hobby project not assessed",
 // Menu
   home: "My World",
   cv: "Resume",
@@ -97,7 +97,7 @@ export const en = {
   priv: "Skill Vault",
 // Home
   hoMe: "About Me :",
-  hoTextMe: "My name is Naomi, I am 17 years old, I was born in January of 2008 and my Myers-Briggs type is ENFP. I am studying computer science at the IMS Berne to get my degree in economics and information technologies, with a specialisation in application development.\n In my free time I do ice skating and other activities, you can see more on this topic in the entry on the right.\n\n My whole life, I had my siblings with me, and they are the reason why I generally like people. I am proud to say that my siblings and I have an excellent bond.\n For example, we almost never fight and have active interactions, although we don't live in the same house anymore. Thanks to my father and one of my brothers, computer science is one thing I really like, and thanks to my education, I can improve my knowledge and the application of this knowledge from day to day. \n\n I don't know what my future will bring me, but one of my goals is to join the military, whether in the airborne infantry division or in NBC defense. Another goal I'd like to achieve in life is to travel to different countries, but I'm not quite as ambitious about that yet.\n",
+  hoTextMe: "My name is Naomi, I am 17 years old, I was born in January of 2008 and my Myers-Briggs type is ENFP. I am studying computer science at the IMS Bern to get my degree in economics and information technologies, with a specialisation in application development.\n In my free time I do ice skating and other activities, you can see more on this topic in the entry on the right.\n\n My whole life, I had my siblings with me, and they are the reason why I generally like people. I am proud to say that my siblings and I have an excellent bond.\n For example, we almost never fight and have active interactions, although we don't live in the same house anymore. Thanks to my father and one of my brothers, computer science is one thing I really like, and thanks to my education, I can improve my knowledge and the application of this knowledge from day to day. \n\n I don't know what my future will bring me, but one of my goals is to join the military, whether in the airborne infantry division or in NBC defense. Another goal I'd like to achieve in life is to travel to different countries, but I'm not quite as ambitious about that yet.\n",
   hoHo: "Hobbies and Interests",
   hoTextHo: "Below are my hobbies which I do on weekends and on fall-, spring- and winter breaks:",
   hoTextIn: "During summer break I usually do the following four activities: gaming, sleeping, swimming and spending time with my kitten. Although I enjoy every listed activity throughout the year.",
@@ -107,6 +107,7 @@ export const en = {
   charlie: "My Family",
   delta: "Me grilling",
   edward: "Archery",
+  golf: "Scouting",
   frank: "My cute cat!",
   
   ba: "Baking",
@@ -126,7 +127,7 @@ export const en = {
   mu: "Listening to music",
   mud: "Music plays a huge role in my life; I listen to it at almost any time of the day",
 //Private
-  prText: "Here I display all my shool related achievments.",
+  prText: "Here I display all my shool related achievements.",
   prNa: "Username: ",
   prPa: "Password: ",
   prLoI: "Login",

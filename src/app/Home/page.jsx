@@ -55,6 +55,7 @@ function page() {
                 <div className="embla__slide"><Image className="Me" src="/charlie.jpg" alt={t.charlie} width={700} height={550} /></div>
                 <div className="embla__slide"><Image className="Me" src="/delta.jpg" alt={t.delta} width={700} height={550} /></div>
                 <div className="embla__slide"><Image className="Me" src="/edward.jpg" alt={t.edward} width={700} height={550} /></div>
+                <div className="embla__slide"><Image className="Me" src="/golf.jpg" alt={t.golf} width={700} height={550} /></div>
                 <div className="embla__slide"><Image className="Me" src="/frank.jpg" alt={t.frank} width={700} height={550} /></div>
               </div>
             </div>

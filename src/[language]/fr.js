@@ -63,7 +63,7 @@ export const fr = {
   crN5: "CSA",
   crD5: "Contrôle de sécurité aquatique",
 //Projects
-  projText: "Sur cette page, vous pouvez interagir avec tous mes projets",
+  projText: "Sur cette page, vous pouvez interagir avec tous mes projets:",
   proDow: "Télécharger tous mes résumés de projets",
   lang: "Langues",
   lan: "IDE",
@@ -107,6 +107,7 @@ export const fr = {
   charlie: "Ma famille",
   delta: "Moi en train de griller",
   edward: "Au tir à l'arc",
+  golf: "Le scout",
   frank: "Mon doux chat!",
   
   ba: "Cuisiner",

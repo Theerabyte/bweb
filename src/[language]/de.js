@@ -45,7 +45,7 @@ export const de = {
   cvHarley3: "Im Sommer 2025 wurde ich Gruppenleiterin in der Pfadiabteilung Turmalin.",
   cvIda1: "Nebenjob",
   cvIda2: "Apotheke Worb",
-  cvIda3: "Ich arbeitet für ein Semester in der Apotheke Worb, zu meinen Aufgaben zählte: neue Medikamente zu sortieren und ein räumen, Geld von der Bank holen, Medikamente zur Spitex bringen und den Abfall entsorgen.",
+  cvIda3: "Ich arbeitete für ein Semester in der Apotheke Worb, zu meinen Aufgaben zählten: neue Medikamente zu sortieren und ein räumen, Geld von der Bank holen, Medikamente zur Spitex bringen und den Abfall entsorgen.",
 // Zertifikate
   certText: "Hier ist eine Tabelle mit allen Zertifikaten, die ich in den letzten 16 Jahren erworben habe:",
   crName: "Name",
@@ -63,7 +63,7 @@ export const de = {
   crN5: "WSC",
   crD5: "Wasser Sicherheits Check",
 // Projects
-  projText: "Auf dieser Seite können Sie mit all meinen Projekten interagieren",
+  projText: "Auf dieser Seite können Sie mit all meinen Projekten interagieren:",
   proDow: "Lade alle meine Projektabstrakts herunter",
   lang: "Sprachen",
   lan: "Integrierte Entwicklungsumgebungen",
@@ -75,7 +75,7 @@ export const de = {
   lrr: "Ein C# spiel namens LARRY",
   bew: "Diese Website, in React und Next.js",
   vow: "Meine erste Website",
-  mrp: "Ein Marsrover-robotter Python Projekt",
+  mrp: "Ein Marsrover-Roboter Python Projekt",
   off: "Eine App für Orellfüssli in .NET Maui",
   mew: "Eine Website fokussiert auf UX/UI-kriterien",
   lam: "Mein erstes Projekt je, Lama Race",
@@ -89,7 +89,7 @@ export const de = {
   ar: ", Produkt vom Praxistraining FS24",
   an: ", Produkt vom üK m335",
   ab: "Wurde nicht bewertet",
-  aa: "Hobby-projekt wurde nicht benotet",
+  aa: "Hobbyprojekt wurde nicht benotet",
 // Menu
   home: "Meine Welt",
   cv: "Lebenslauf",
@@ -97,7 +97,7 @@ export const de = {
   priv: "Fähigkeitentresor",
 // Home
   hoMe: "Über mich:",
-  hoTextMe: "Mein Name ist Naomi, ich bin 17 Jahre alt, bin im Januar 2008 geboren und mein Myers-Briggs-Typ ist ENFP. Ich erlerne Informatik an der IMS Bern mit Berufsmatur in Wirtschaft und EFZ in Applikationsentwicklung.\n In meiner Freizeit gehe ich Schlittschuhlaufen und mache andere Sachen, mehr dazu erfahrt ihr im Eintrag rechts. \n\n Meine Geschwister haben mich mein ganzes Leben lang begleitet und sie sind der Grund, warum ich Menschen grundsätzlich mag. Ich bin stolz darauf, dass meine Geschwister und ich eine wunderbare Beziehung haben.\n Wir streiten uns zum Beispiel fast nie und haben einen aktiven Austausch, obwohl wir nicht mehr im selben Haus wohnen. Dank meinem Vater und einer meiner Brüder mag ich Informatik sehr und dank meiner Ausbildung kann ich mein Wissen und die Anwendung dieses Wissens täglich verbessern. \n\n Ich weiss noch nicht, was meine Zukunft alles für mich bereithält, aber ein Ziel von mir ist es, dem Militär beizutreten, sei es in der Flugplatzsoldatenabteilung oder in der ABC-Abwehr. Ein weiteres Ziel, das ich mir im Leben gerne erreichen will, ist eine Reise durch verschiedene Länder, aber dafür bin ich noch nicht ganz so ehrgeizig.",
+  hoTextMe: "Mein Name ist Naomi, ich bin 17 Jahre alt, bin im Januar 2008 geboren und mein Myers-Briggs-Typ ist ENFP. Ich erlerne Informatik an der IMS Bern mit Berufsmatur in Wirtschaft und EFZ in Applikationsentwicklung.\n In meiner Freizeit gehe ich Schlittschuhlaufen und mache andere Sachen, mehr dazu erfahren Sie im Eintrag rechts. \n\n Meine Geschwister haben mich mein ganzes Leben lang begleitet und sie sind der Grund, warum ich Menschen grundsätzlich mag. Ich bin stolz darauf, dass meine Geschwister und ich eine wunderbare Beziehung haben.\n Wir streiten uns zum Beispiel fast nie und haben einen aktiven Austausch, obwohl wir nicht mehr im selben Haus wohnen. Dank meinem Vater und einer meiner Brüder mag ich Informatik sehr und dank meiner Ausbildung kann ich mein Wissen und die Anwendung dieses Wissens täglich verbessern. \n\n Ich weiss noch nicht, was meine Zukunft alles für mich bereithält, aber ein Ziel von mir ist es, dem Militär beizutreten, sei es in der Flugplatzsoldatenabteilung oder in der ABC-Abwehr. Ein weiteres Ziel, das ich mir im Leben gerne erreichen will, ist eine Reise durch verschiedene Länder, aber dafür bin ich noch nicht ganz so ehrgeizig.",
   hoHo: "Hobbies und Interessen",
   hoTextHo: "In den Herbst-, Winter- und Frühlingsferien und an Wochenenden mache ich mit Vorliebe nachfolgende Hobbies: ",
   hoTextIn: "In den Sommerferien widme ich mich normalerweise folgenden vier Aktivitäten: Spielen, Schlafen, Schwimmen und Zeit mit meinem Kätzchen verbringen. Obwohl ich jede dieser Aktivitäten das ganze Jahr über geniesse.",
@@ -107,6 +107,7 @@ export const de = {
   charlie: "Meine Familie",
   delta: "Am Grillen",
   edward: "Bogenschiessen",
+  golf: "Pfadi",
   frank: "Meine süsse Katze!",
 
   ba: "Backen",
