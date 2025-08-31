@@ -23,7 +23,7 @@ export const en = {
 // CV
   cvText: "On this page, you will be informed about my educational and non-educational path:",
 
-  cvAdam1: "Learning to become an Application Developer EFZ with a Business Baccalaureate",
+  cvAdam1: "Learning to become an Application Developer VET with a Business Baccalaureate",
   cvAdam2: "IMS Bern",
   cvAdam3: "Gaining expertise in software development and economic aspects through practical training and vocational courses.",
   cvBravo1: "Primary & Secondary Education",
