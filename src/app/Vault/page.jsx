@@ -20,23 +20,23 @@ function page() {
   const [isLoading, setIsLoading] = useState(true);
 
   const noteURL = [
-    { src: "/docs/noten/zeugnis-1.pdf", desc: t.z1, preview: "/docs/noten/z1.png" },
-    { src: "/docs/noten/zeugnis-2.pdf", desc: t.z2, preview: "/docs/noten/z2.png" }
+    { src: "/docs/noten/zeugnis-1.pdf", desc: "GIBB 2024/25", resc: t.z1 + 5.75, preview: "/docs/noten/z1.jpg" },
+    { src: "/docs/noten/zeugnis-2.pdf", desc: "BWD 2024/25",  resc: t.z1 + 5.4 , preview: "/docs/noten/z2.jpg" }
   ];
   const uekURL = [
-    { src: "/docs/noten/m187.pdf", desc: t.m187, preview: "/docs/noten/m187.png" },
-    { src: "/docs/noten/m106.pdf", desc: t.m106, preview: "/docs/noten/m106.png" },
-    { src: "/docs/noten/m294.pdf", desc: t.m294, preview: "/docs/noten/m294.png" },
-    { src: "/docs/noten/m295.pdf", desc: t.m295, preview: "/docs/noten/m295.png" },
-    { src: "/docs/noten/m210.pdf", desc: t.m210, preview: "/docs/noten/m210.png" },
-    { src: "/docs/noten/m335.pdf", desc: t.m335, preview: "/docs/noten/m335.png" },
+    { src: "/docs/noten/m187.pdf", desc: t.m187, resc: 5  , preview: "/docs/noten/m187.png" },
+    { src: "/docs/noten/m106.pdf", desc: t.m106, resc: 5.5, preview: "/docs/noten/m106.png" },
+    { src: "/docs/noten/m294.pdf", desc: t.m294, resc: 5.5, preview: "/docs/noten/m294.png" },
+    { src: "/docs/noten/m295.pdf", desc: t.m295, resc: 5.5, preview: "/docs/noten/m295.png" },
+    { src: "/docs/noten/m210.pdf", desc: t.m210, resc: 5.5, preview: "/docs/noten/m210.png" },
+    { src: "/docs/noten/m335.pdf", desc: t.m335, resc: 5.5, preview: "/docs/noten/m335.png" },
   ];
 
   const praxisURL = [
-    { src: "/docs/noten/hs23.jpg", desc: t.hs + "2023", preview: "/docs/noten/hs23.jpg" },
-    { src: "/docs/noten/fs24.jpg", desc: t.fs + "2024", preview: "/docs/noten/fs24.jpg" },
-    { src: "/docs/noten/hs24.jpg", desc: t.hs + "2024", preview: "/docs/noten/hs24.jpg" },
-    { src: "/docs/noten/fs25.jpg", desc: t.fs + "2025", preview: "/docs/noten/fs25.jpg" }
+    { src: "/docs/noten/hs23.jpg", desc: t.hs + "2023", resc: 6  , preview: "/docs/noten/hs23.jpg" },
+    { src: "/docs/noten/fs24.jpg", desc: t.fs + "2024", resc: 6  , preview: "/docs/noten/fs24.jpg" },
+    { src: "/docs/noten/hs24.jpg", desc: t.hs + "2024", resc: 5.5, preview: "/docs/noten/hs24.jpg" },
+    { src: "/docs/noten/fs25.jpg", desc: t.fs + "2025", resc: 5.5, preview: "/docs/noten/fs25.jpg" }
   ];
 
   const handleDowAll = () => {
@@ -99,6 +99,7 @@ function page() {
                       key={index}
                       src={item.src}
                       title={item.desc}
+                      desc={item.resc}
                       isPDF={item.src.endsWith('.pdf')}
                       preview={item.preview}
                     />
@@ -113,6 +114,7 @@ function page() {
                       key={index}
                       src={item.src}
                       title={item.desc}
+                      desc={item.resc}
                       isPDF={item.src.endsWith('.pdf')}
                       preview={item.preview}
                     />
@@ -127,6 +129,7 @@ function page() {
                       key={index}
                       src={item.src}
                       title={item.desc}
+                      desc={item.resc}
                       isJPG={item.src.endsWith('.jpg')}
                       preview={item.preview}
                     />

@@ -17,21 +17,21 @@ function page() {
   const t = translationsMap[language];
 
   const noteURL = [
-    { src: "/docs/Project Abstract VorstellungsWebsite.pdf", desc: t.vow, preview: "/docs/ap-web.png" },
-    { src: "/docs/Project Abstract meWeb.pdf", desc: t.mew, preview: "/docs/ap-293.png" },
-    { src: "/docs/Project Abstract BewerbungsWebsite.pdf", desc: t.bew, preview: "/docs/ap-bweb.png" },
+    { src: "/docs/Project Abstract VorsWebsite.pdf", desc: t.vow, resc: 6 + t.av  , preview: "/docs/ap-web.png" },
+    { src: "/docs/Project Abstract meWeb.pdf",       desc: t.mew, resc: 5.5       , preview: "/docs/ap-293.png" },
+    { src: "/docs/Project Abstract BeweWebsite.pdf", desc: t.bew, resc: t.ab      , preview: "/docs/ap-bweb.png" },
 
-    { src: "/docs/Project Abstract Orellfüssli.pdf", desc: t.of, preview: "/docs/ap-of.png" },
-    { src: "/docs/Project Abstract LARRY.pdf", desc: t.lar, preview: "/docs/ap-larry.png" },
-    { src: "/docs/Project Abstract Lama Race.pdf", desc: t.lr, preview: "/docs/ap-lm.png" },
+    { src: "/docs/Project Abstract Orellfüssli.pdf", desc: t.off, resc: 5.5       , preview: "/docs/ap-of.png" },
+    { src: "/docs/Project Abstract LARRY.pdf",       desc: t.lrr, resc: 6 + t.ar  , preview: "/docs/ap-larry.png" },
+    { src: "/docs/Project Abstract Lama Race.pdf",   desc: t.lam, resc: t.aa      , preview: "/docs/ap-lm.png" },
 
-    { src: "/docs/Project Abstract neo4j.pdf", desc: t.nsq, preview: "/docs/ap-neo.png" },
-    { src: "/docs/Project Abstract ANAE.pdf", desc: t.anae, preview: "/docs/ap-anae.png" },
-    { src: "/docs/Project Abstract notora.pdf", desc: t.no, preview: "/docs/ap-notora.jpg" },
+    { src: "/docs/Project Abstract neo4j.pdf",       desc: t.nsq, resc: 5.5       , preview: "/docs/ap-neo.png" },
+    { src: "/docs/Project Abstract ANAE.pdf",        desc: t.ana, resc: 6         , preview: "/docs/ap-anae.png" },
+    { src: "/docs/Project Abstract notora.pdf",      desc: t.not, resc: 5.5 + t.an, preview: "/docs/ap-notora.jpg" },
 
-    { src: "/docs/Project Abstract MarsRover.pdf", desc: t.mr, preview: "/docs/ap-mr.jpg" },
-    { src: "/docs/Project Abstract Blackberry Pi.pdf", desc: t.tub, preview: "/docs/ap-blackberrypi.jpg" },
-    { src: "/docs/Project Abstract TTGO.pdf", desc: t.tt, preview: "/docs/ap-tt.jpg" },
+    { src: "/docs/Project Abstract MarsRover.pdf",   desc: t.mrp, resc: 6         , preview: "/docs/ap-mr.jpg" },
+    { src: "/docs/Project Abstract BlackbrPi.pdf",   desc: t.tub, resc: t.ab      , preview: "/docs/ap-blackberrypi.jpg" },
+    { src: "/docs/Project Abstract TTGO.pdf",        desc: t.ttg, resc: t.ab      , preview: "/docs/ap-tt.jpg" },
   ];
 
   const handleDowAll = () => {
@@ -51,6 +51,7 @@ function page() {
                 key={index}
                 src={item.src}
                 title={item.desc}
+                desc={item.resc}
                 isPDF={item.src.endsWith('.pdf')}
                 preview={item.preview}
               />
