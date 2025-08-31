@@ -67,6 +67,10 @@ export const de = {
   proDow: "Lade alle meine Projektabstrakts herunter",
   lang: "Sprachen",
   lan: "Integrierte Entwicklungsumgebungen",
+  daa: "Zeugnis",
+  dab: "üK bewertung",
+  dac: "Praxisbericht",
+  dau: "Projekt Abstrakt",
   // desc
   lrr: "Ein C# spiel namens LARRY",
   bew: "Diese Website, in React und Next.js",

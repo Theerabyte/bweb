@@ -67,6 +67,10 @@ export const en = {
   proDow: "Download all my project abstracts",
   lang: "Languages",
   lan: "IDEs",
+  daa: "Certificate",
+  dab: "Cross-company assessment",
+  dac: "Practical report",
+  dau: "Project abstract",
   // desc
   lrr: "A C# game called LARRY",
   bew: "This Website, built with React and Next.js",

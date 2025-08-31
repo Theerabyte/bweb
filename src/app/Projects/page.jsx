@@ -52,6 +52,7 @@ function page() {
                 src={item.src}
                 title={item.desc}
                 desc={item.resc}
+                dow= {t.dau}
                 isPDF={item.src.endsWith('.pdf')}
                 preview={item.preview}
               />

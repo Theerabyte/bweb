@@ -64,9 +64,13 @@ export const fr = {
   crD5: "Contrôle de sécurité aquatique",
 //Projects
   projText: "Sur cette page, vous pouvez interagir avec tous mes projets",
-  proDow: "Télécharger tous mes présumés de projets",
+  proDow: "Télécharger tous mes résumés de projets",
   lang: "Langues",
   lan: "IDE",
+  daa: "certificat",
+  dab: "évaluation üK",
+  dac: "rapport pratique",
+  dau: "Le résumé du projet",
   // desc
   lrr: "Un jeu C# du nome LARRY",
   bew: "Cette site web, en React et Next.js",

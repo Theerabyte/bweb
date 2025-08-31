@@ -100,6 +100,7 @@ function page() {
                       src={item.src}
                       title={item.desc}
                       desc={item.resc}
+                      dow={t.daa}
                       isPDF={item.src.endsWith('.pdf')}
                       preview={item.preview}
                     />
@@ -115,6 +116,7 @@ function page() {
                       src={item.src}
                       title={item.desc}
                       desc={item.resc}
+                      dow={dab}
                       isPDF={item.src.endsWith('.pdf')}
                       preview={item.preview}
                     />
@@ -130,6 +132,7 @@ function page() {
                       src={item.src}
                       title={item.desc}
                       desc={item.resc}
+                      dow={dac}
                       isJPG={item.src.endsWith('.jpg')}
                       preview={item.preview}
                     />

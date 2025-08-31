@@ -9,7 +9,7 @@ import { fr } from '@/[language]/fr';
 
 const translationsMap = { en, de, fr };
 
-function Noten({ src, alt, title, desc, isPDF, preview }) {
+function Noten({ src, alt, title, desc, dow, isPDF, preview }) {
   const handleDownload = async () => {
     const filename = src.split('/').pop();
     await downloadFile(src, filename);
@@ -42,6 +42,7 @@ function Noten({ src, alt, title, desc, isPDF, preview }) {
             style={{ display: 'flex', alignItems: 'center', padding: '4px', background: 'none', border: 'none', cursor: 'pointer' }}
           >
             <Download size={20} />
+            <span>{dow}</span>
           </button>
         </div>
       </div>
