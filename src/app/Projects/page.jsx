@@ -83,7 +83,10 @@ function page() {
           <SkillProgress level={40} name="SQLite" />
           <h3 className='skP'>{t.lan}</h3>
           <SkillProgress level={30} name="Eclips" />
-          <SkillProgress level={40} name="Figma" />
+          <SkillProgress level={45} name="Figma" />
+          <SkillProgress level={72} name="Git" />
+          <SkillProgress level={69} name="GitHub" />
+          <SkillProgress level={58} name="GitLab" />
           <SkillProgress level={40} name="Raspberry Pi" />
           <SkillProgress level={55} name="SQLWorkbench" />
           <SkillProgress level={50} name="Terminal (CMD)" />
