@@ -116,7 +116,7 @@ function page() {
                       src={item.src}
                       title={item.desc}
                       desc={item.resc}
-                      dow={dab}
+                      dow={t.dab}
                       isPDF={item.src.endsWith('.pdf')}
                       preview={item.preview}
                     />
@@ -132,7 +132,7 @@ function page() {
                       src={item.src}
                       title={item.desc}
                       desc={item.resc}
-                      dow={dac}
+                      dow={t.dac}
                       isJPG={item.src.endsWith('.jpg')}
                       preview={item.preview}
                     />
