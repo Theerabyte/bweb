@@ -158,4 +158,4 @@ This project utilizes React, Next JS, HTML, CSS, Embla Carousel, Verticale-timel
 The website will be deployed at `[Website url following]`and is regularly updated with new content and features.
 
 # Contributing
-This is a personal project, but if you have any suggestions or ideas, feel free to contact me here on git Hub or find my contact info in my Contact-page.
+This is a personal project, but if you have any suggestions or ideas, feel free to contact me here on git Hub or find my contact info in the footer of my website.
