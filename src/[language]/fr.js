@@ -65,12 +65,23 @@ export const fr = {
 //Projects
   projText: "Sur cette page, vous pouvez interagir avec tous mes projets:",
   proDow: "Télécharger tous mes résumés de projets",
+  grade: "Note: ",
   lang: "Langues",
   lan: "IDE",
+  lac: "Compétences",
   daa: "certificat",
   dab: "évaluation üK",
   dac: "rapport pratique",
   dau: "Le résumé du projet",
+  //skill
+  s1: "Communication",
+  s2: "Dévouement",
+  s3: "Diligence",
+  s4: "Endurance",
+  s5: "Leadership",
+  s6: "Motivation",
+  s7: "Organisation",
+  s8: "Optimisme",
   // desc
   lrr: "Un jeu C# du nome LARRY",
   bew: "Cette site web, en React et Next.js",
@@ -85,9 +96,9 @@ export const fr = {
   ana: "ANAE, un décrypteur et un crypteur",
   tub: "Blackberry Pi, Blackberry x RaspberryPi",
   // resc
-  av: "Produit issu de la formation pratique HS23",
-  ar: "Produit issu de la formation pratique FS24",
-  an: "Produit issu de la formation interentreprises m335",
+  av: ", Produit issu de la formation pratique HS23",
+  ar: ", Produit issu de la formation pratique FS24",
+  an: ", Produit issu de la formation interentreprises m335",
   ab: "N'a pas été évalué",
   aa: "Le projet amateur n'a pas été noté",
 //Menu

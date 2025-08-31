@@ -65,12 +65,23 @@ export const en = {
 // Projects
   projText: "On this page you can interact with all my projects:",
   proDow: "Download all my project abstracts",
+  grade: "Grade: ",
   lang: "Languages",
   lan: "IDEs",
+  lac: "Skills",
   daa: "Certificate",
   dab: "Cross-company assessment",
   dac: "Practical report",
   dau: "Project abstract",
+  //skill
+  s1: "Communication",
+  s2: "Dedication",
+  s3: "Dilligence",
+  s4: "Endurance",
+  s5: "Leadership",
+  s6: "Motivation",
+  s7: "Organisation",
+  s8: "Optimism",
   // desc
   lrr: "A C# game called LARRY",
   bew: "This Website, built with React and Next.js",
