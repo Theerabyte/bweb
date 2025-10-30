@@ -67,16 +67,16 @@ function page() {
           <SkillProgress level={35} name=".NET Maui" />
           <SkillProgress level={80} name="CSS" />
           <SkillProgress level={45} name="C#" />
-          <SkillProgress level={50} name="Docker" />
-          <SkillProgress level={25} name="Haskell" />
+          <SkillProgress level={60} name="Docker" />
+          <SkillProgress level={50} name="Haskell" />
           <SkillProgress level={85} name="HTML" />
-          <SkillProgress level={65} name="Java" />
+          <SkillProgress level={70} name="Java" />
           <SkillProgress level={55} name="JavaScript" />
           <SkillProgress level={40} name="Kubernetes" />
           <SkillProgress level={45} name="Neo4j" />
           <SkillProgress level={55} name="NoSQL" />
           <SkillProgress level={35} name="php" />
-          <SkillProgress level={25} name="python" />
+          <SkillProgress level={30} name="python" />
           <SkillProgress level={55} name="React" />
           <SkillProgress level={60} name="Shell script" />
           <SkillProgress level={70} name="SQL" />
@@ -89,8 +89,8 @@ function page() {
           <SkillProgress level={58} name="GitLab" />
           <SkillProgress level={40} name="Raspberry Pi" />
           <SkillProgress level={55} name="SQLWorkbench" />
-          <SkillProgress level={50} name="Terminal (CMD)" />
-          <SkillProgress level={50} name="Visual Studio" />          
+          <SkillProgress level={60} name="Terminal (CMD)" />
+          <SkillProgress level={50} name="Visual Studio" />
           <SkillProgress level={70} name="Visual Studio Code" />
           <h3 className='skP'>{t.lac}</h3>
           <SkillProgress level={70} name={t.s1} />
