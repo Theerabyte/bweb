@@ -26,9 +26,10 @@ function page() {
   const uekURL = [
     { src: "/docs/noten/m187.pdf", desc: t.m187, resc: 5  , preview: "/docs/noten/m187.png" },
     { src: "/docs/noten/m106.pdf", desc: t.m106, resc: 5.5, preview: "/docs/noten/m106.png" },
+    { src: "/docs/noten/m223.pdf", desc: t.m223, resc: 5  , preview: "/docs/noten/m223.png" },
+    { src: "/docs/noten/m210.pdf", desc: t.m210, resc: 5.5, preview: "/docs/noten/m210.png" },
     { src: "/docs/noten/m294.pdf", desc: t.m294, resc: 5.5, preview: "/docs/noten/m294.png" },
     { src: "/docs/noten/m295.pdf", desc: t.m295, resc: 5.5, preview: "/docs/noten/m295.png" },
-    { src: "/docs/noten/m210.pdf", desc: t.m210, resc: 5.5, preview: "/docs/noten/m210.png" },
     { src: "/docs/noten/m335.pdf", desc: t.m335, resc: 5.5, preview: "/docs/noten/m335.png" },
   ];
 

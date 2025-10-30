@@ -153,6 +153,7 @@ export const de = {
   m187: "Modul 187, Computer und Arbeitsergonomie",
   m106: "Modul 106, SQL Datenbanken",
   m210: "Modul 210, Cloud und Azure",
+  m223: "Modul 223, Multi-User Applikationen",
   m294: "Modul 294, Frontend entwicklung",
   m295: "Modul 295, Backend entwicklung",
   m335: "Modul 335, React Mobil Applikation",

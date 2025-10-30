@@ -154,6 +154,7 @@ export const en = {
   m187: "Module 187, PC's and ergonomic workplace",
   m106: "Module 106, SQL database",
   m210: "Module 210, Cloud and Azure",
+  m223: "Module 223, Multi-User Applications",
   m294: "Module 294, Frontend Development",
   m295: "Module 295, Backend Development",
   m335: "Module 335, React Mobile App",
