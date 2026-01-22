@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { verify } from 'jsonwebtoken';
 
-export function middleware(request) {
+export function proxy(request) {
     const token = request.cookies.get('authToken')?.value;
     if (!token) {
         return NextResponse.redirect(new URL('/vault', request.url));
