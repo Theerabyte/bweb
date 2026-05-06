@@ -25,6 +25,8 @@ web-ncb/
 │   │   │   ├── m187.png
 │   │   │   ├── m210.pdf
 │   │   │   ├── m210.png
+│   │   │   ├── m223.pdf
+│   │   │   ├── m223.png
 │   │   │   ├── m294.pdf
 │   │   │   ├── m294.png
 │   │   │   ├── m295.pdf
@@ -58,12 +60,14 @@ web-ncb/
 │   │   ├── ap-blackberrypi.jpg
 │   │   ├── ap-bweb.png
 │   │   ├── ap-larry.png
+│   │   ├── ap-lm.jpg
 │   │   ├── ap-mr.jpg
 │   │   ├── ap-neo.png
 │   │   ├── ap-notora.jpg
 │   │   ├── ap-of.png
 │   │   ├── ap-tt.jpg
 │   │   ├── ap-web.png
+│   │   ├── naomi-baechler-project-abstracts.zip
 │   │   ├── Project Abstract ANAE.pdf
 │   │   ├── Project Abstract BeweWebsite.pdf
 │   │   ├── Project Abstract Blackberry Pi.pdf
@@ -95,6 +99,8 @@ web-ncb/
 │   ├── file.svg
 │   ├── frank.jpg
 │   ├── globe.svg
+│   ├── golf.jpg
+│   ├── grad-cv.png
 │   ├── next.svg
 │   ├── v3.png
 │   ├── vercel.svg
@@ -116,10 +122,10 @@ web-ncb/
 │   │   │   └── global.css
 │   │   │
 │   │   ├── api/
-│   │   │   ├── Project Abstract .docx
-│   │   │   │   └── FuturaPTBook.otf
-│   │   │   └── Project Abstract .docx
-│   │   │       └── FuturaPTBook.otf
+│   │   │   ├── check-auth/
+│   │   │   │   └── route.js
+│   │   │   └── login/
+│   │   │       └── route.js
 │   │   │
 │   │   ├── CV/
 │   │   │   └── page.jsx
@@ -140,17 +146,18 @@ web-ncb/
 │       ├── LanguageSwitcher.js
 │       ├── Nav.js
 │       ├── Note.js
-│       └── NoteBlat.js
+│       ├── NotenDow.js
+│       └── Squil.js
 │
 ├── .env.local
 ├── .gitignore
 ├── eslint.config.mjs
 ├── jsconfig.json
-├── middleware.js
 ├── next.config.mjs
 ├── package-lock.json
 ├── package.json
 ├── postcss.config.mjs
+├── proxy.js
 └── README.md
 ```
 
